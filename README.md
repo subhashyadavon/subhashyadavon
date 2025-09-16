@@ -26,8 +26,8 @@
 ![AWS](https://img.shields.io/badge/AWS-232F3E?logo=amazonaws&logoColor=white)
 
 **AI/ML**  
-![LLM](https://img.shields.io/badge/LLM-Large_Language_Models-blueviolet)
-![NLP](https://img.shields.io/badge/NLP-Natural_Language_Processing-orange)
+![Large Language Model](https://img.shields.io/badge/LLM-Large_Language_Models-blueviolet)
+![Natural Language Processing](https://img.shields.io/badge/NLP-Natural_Language_Processing-orange)
 ![LangGraph](https://img.shields.io/badge/LangGraph-AI_Workflows-9cf)
 ![VectorDB](https://img.shields.io/badge/Vector_Database-Semantic_Search-success)
 ![LangChain](https://img.shields.io/badge/LangChain-AI_Workflows-red)
@@ -46,11 +46,12 @@
 
 ### ✨ Character Animation  
 
-<img src="https://raw.githubusercontent.com/subhashyadavon/subhashyadavon/main/runner.gif" width="400" alt="ASCII Running Animation"/>  
+<img src="https://media.giphy.com/media/26AHONQ79FdWZhAI0/giphy.gif" width="100%" alt="Matrix code rain"/>
+ 
 
 ---
 
-### 📫 Connect with Me  
+### Connect with Me  
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?logo=linkedin&logoColor=white)](https://linkedin.com/in/your-link)  
 
