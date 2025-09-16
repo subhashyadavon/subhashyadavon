@@ -1,8 +1,6 @@
 # 👋 Hey, I’m Subhash Yadav  
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?size=24&duration=3000&color=00FFCC&lines=CS+Student+%7C+Software+Engineer;AI+Training+Data+%7C+FullStack+Dev)](https://git.io/typing-svg)
-
-<img src="https://media.giphy.com/media/26AHONQ79FdWZhAI0/giphy.gif" width="100%" alt="Matrix code rain"/>
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?size=24&duration=3000&color=00FFCC&lines=CS+Student+%7C+Software+Engineer;AI+Training+Data+%7C+FullStack+Dev;Future+FAANG+Engineer)](https://git.io/typing-svg)
 
 ---
 
@@ -11,7 +9,7 @@
 - 💻 Hands-on experience in **AI training data** and **software engineering**  
 - 🔭 Built projects in **Android apps, operating systems, and databases**  
 - 🌱 Currently exploring **AI/ML systems and distributed computing**  
-
+- 🎯 Career Goal: Become a **FAANG engineer + commercial pilot**  
 
 ---
 
@@ -36,6 +34,16 @@
 
 ---
 
+### 📊 GitHub Stats  
+
+![Subhash's GitHub Stats](https://github-readme-stats.vercel.app/api?username=your-username&show_icons=true&theme=radical)  
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=your-username&layout=compact&theme=radical)  
+
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=your-username&theme=radical)  
+
+---
+
 ### 📌 Featured Projects  
 - [**UStep App**](https://github.com/your-username/ustep) — Android app with Java, DB, and testing frameworks.  
 - [**NQP Shell**](https://github.com/your-username/nqp-shell) — Custom Linux shell with process management & IPC.  
@@ -50,8 +58,17 @@
 
 ---
 
+### ✨ Character Animation  
+
+<img src="https://raw.githubusercontent.com/your-username/your-repo/main/runner.gif" width="400" alt="ASCII Running Animation"/>  
+
+*(or replace with a custom ASCII animation of your name SUBHASH running across the screen)*  
+
+---
+
 ### 📫 Connect with Me  
 📍 Winnipeg, Canada  
 ✉️ yadavs2@myumanitoba.ca  
 🔗 [LinkedIn](https://linkedin.com/in/your-link) | [GitHub](https://github.com/your-username)
+
 
