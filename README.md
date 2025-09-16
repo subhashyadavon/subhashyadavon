@@ -6,7 +6,7 @@
 
 ### 🚀 About Me  
 - 🎓 Fourth-year CS student at the **University of Manitoba** (Minor in Mathematics)  
-- 💻 Hands-on experience in **AI training data** and **software engineering**  
+- 💻 Hands-on experience in **Software Engineering** and **AI training data**  
 - 🔭 Built projects in **AI/ML, Full-Stack, Operating Systems, and Databases**  
 - 🌱 Currently exploring **AI/ML systems and distributed computing**  
 
