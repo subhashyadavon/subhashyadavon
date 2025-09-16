@@ -34,14 +34,6 @@
 
 ---
 
-### ✨ Dynamic ASCII Animation  
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/subhashyadavon/subhashyadavon/main/ascii-runner.gif" width="500" alt="ASCII Runner Animation"/>
-</p>
-
----
-
 ### Connect with Me  
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?logo=linkedin&logoColor=white)](https://linkedin.com/in/subhashyadavon)
