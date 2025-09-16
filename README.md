@@ -1,29 +1,26 @@
-# 👋 Hey, I’m Subhash Yadav  
+# 👋 Hey, I’m Subhash  
 
-![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&pause=1000&color=36BCF7&width=500&lines=AI%2FML+Engineer;Full-Stack+Developer;Android+App+Builder;Future+FAANG+SWE+%F0%9F%9A%80)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?size=24&duration=3000&color=00FFCC&lines=CS+Student+%7C+AI+%7C+Android;Distributed+Systems+Explorer;Future+FAANG+Engineer)](https://git.io/typing-svg)
 
----
-
-## 🚀 About Me
-🎓 Final-year CS @ University of Manitoba  
-⚡ Interested in **AI/ML, Distributed Systems, Android, Full-Stack Development**  
-🌱 Currently learning **OSTEP concepts, scalable databases, and cloud-native systems**  
+<img src="lion.gif" alt="ASCII lion running" width="400"/>
 
 ---
 
-## 🛠 Tech Stack
-![Python](https://img.shields.io/badge/Python-3670A0?style=flat&logo=python&logoColor=ffdd54)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat&logo=nextdotjs&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
+### 🚀 About Me  
+- 🎓 Final year CS student (AI/ML, Distributed Systems, Android Dev)  
+- 🔭 Building cool stuff with **React, Next.js, Android Studio**  
+- 🌱 Currently exploring **systems design + ML**  
+- 🎯 Goal: Become a **FAANG engineer + pilot**  
 
 ---
 
-## 📊 Stats
-![GitHub Streak](https://streak-stats.demolab.com?user=your-username&theme=tokyonight&hide_border=true)  
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=your-username&show_icons=true&theme=tokyonight)  
+### 🛠️ Tech Stack  
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
+![Java](https://img.shields.io/badge/Java-007396?logo=java&logoColor=white)
+![Android](https://img.shields.io/badge/Android-3DDC84?logo=android&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB)
+![Next.js](https://img.shields.io/badge/Next.js-000000?logo=nextdotjs&logoColor=white)
 
 ---
-💡 *"Code. Build. Fly. Repeat."*
 
+![Snake animation](https://github.com/Platane/snk/raw/output/github-contribution-grid-snake.svg)
