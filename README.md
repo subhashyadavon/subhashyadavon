@@ -1,6 +1,6 @@
 # 👋 Hi, I’m Subhash Yadav  
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?size=24&duration=3000&color=00FFCC&lines=Fourth-year+CS+Student;Software+Engineering+%7C+AI+Training;Future+FAANG+Engineer)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?size=28&duration=5000&color=00FFCC&font=Fira+Code&lines=AI%2FML+Engineer;Full-Stack+Engineer;Backend+Engineer;Software+Engineer)](https://git.io/typing-svg)
 
 ---
 
@@ -9,7 +9,6 @@
 - 💻 Hands-on experience in **AI training data** and **software engineering**  
 - 🔭 Built projects in **AI/ML, Full-Stack, Operating Systems, and Databases**  
 - 🌱 Currently exploring **AI/ML systems and distributed computing**  
-
 
 ---
 
@@ -31,6 +30,7 @@
 ![NLP](https://img.shields.io/badge/NLP-Natural_Language_Processing-orange)
 ![LangGraph](https://img.shields.io/badge/LangGraph-AI_Workflows-9cf)
 ![VectorDB](https://img.shields.io/badge/Vector_Database-Semantic_Search-success)
+![LangChain](https://img.shields.io/badge/LangChain-AI_Workflows-red)
 
 ---
 
@@ -48,9 +48,11 @@
 
 <img src="https://raw.githubusercontent.com/subhashyadavon/subhashyadavon/main/runner.gif" width="400" alt="ASCII Running Animation"/>  
 
-
 ---
-🔗 [LinkedIn](https://linkedin.com/in/your-link) 
+
+### 📫 Connect with Me  
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?logo=linkedin&logoColor=white)](https://linkedin.com/in/your-link)  
 
 
 
