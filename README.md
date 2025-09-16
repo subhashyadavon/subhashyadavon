@@ -1,5 +1,15 @@
 <p align="center">
-  <img src="https://media.giphy.com/media/l0MYK8vnn4xZ9v4FW/giphy.gif" width="500"/>
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?size=32&duration=8000&color=00FFCC&font=Fira+Code&lines=AI%2FML+Engineer;Full-Stack+Engineer;Backend+Engineer;Software+Engineer)](https://git.io/typing-svg)
+</p>
+
+<p align="center">
+<pre>
+╔══════════════════════════════════╗
+║  █▀▀ █▄█ █▀█ ▄▀█ █▀█ █▀▄ █▀▀  ║
+║  █▄▄ ░█░ █▄█ █▀█ █▄█ █▄▀ █▄▄  ║
+║  Subhash Yadav – Tech Explorer   ║
+╚══════════════════════════════════╝
+</pre>
 </p>
 
 
