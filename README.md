@@ -1,5 +1,7 @@
 # 👋 Hi, I’m Subhash Yadav  
 
+<img src="https://media.giphy.com/media/l0MYK8vnn4xZ9v4FW/giphy.gif" width="400" alt="Glitch text animation"/>
+
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?size=28&duration=5000&color=00FFCC&font=Fira+Code&lines=AI%2FML+Engineer;Full-Stack+Engineer;Backend+Engineer;Software+Engineer)](https://git.io/typing-svg)
 
 ---
@@ -41,13 +43,6 @@
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=subhashyadavon&layout=compact&theme=radical)  
 
 ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=subhashyadavon&theme=radical)  
-
----
-
-### ✨ Character Animation  
-
-<img src="https://media.giphy.com/media/26AHONQ79FdWZhAI0/giphy.gif" width="100%" alt="Matrix code rain"/>
- 
 
 ---
 
