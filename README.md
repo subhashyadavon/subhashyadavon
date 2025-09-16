@@ -1,18 +1,3 @@
-<p align="center">
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?size=32&duration=8000&color=00FFCC&font=Fira+Code&lines=AI%2FML+Engineer;Full-Stack+Engineer;Backend+Engineer;Software+Engineer)](https://git.io/typing-svg)
-</p>
-
-<p align="center">
-<pre>
-╔══════════════════════════════════╗
-║  █▀▀ █▄█ █▀█ ▄▀█ █▀█ █▀▄ █▀▀  ║
-║  █▄▄ ░█░ █▄█ █▀█ █▄█ █▄▀ █▄▄  ║
-║  Subhash Yadav – Tech Explorer   ║
-╚══════════════════════════════════╝
-</pre>
-</p>
-
-
 # 👋 Hi, I’m Subhash Yadav  
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?size=28&duration=5000&color=00FFCC&font=Fira+Code&lines=AI%2FML+Engineer;Full-Stack+Engineer;Backend+Engineer;Software+Engineer)](https://git.io/typing-svg)
@@ -49,19 +34,18 @@
 
 ---
 
-### 📊 GitHub Stats  
+### ✨ Dynamic ASCII Animation  
 
-![Subhash's GitHub Stats](https://github-readme-stats.vercel.app/api?username=subhashyadavon&show_icons=true&theme=radical)  
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=subhashyadavon&layout=compact&theme=radical)  
-
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=subhashyadavon&theme=radical)  
+<p align="center">
+  <img src="https://raw.githubusercontent.com/subhashyadavon/subhashyadavon/main/ascii-runner.gif" width="500" alt="ASCII Runner Animation"/>
+</p>
 
 ---
 
 ### Connect with Me  
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?logo=linkedin&logoColor=white)](https://linkedin.com/in/subhashyadavon)  
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?logo=linkedin&logoColor=white)](https://linkedin.com/in/subhashyadavon)
+
 
 
 
