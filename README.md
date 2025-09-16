@@ -1,6 +1,5 @@
-<!-- Animated neon/tech header -->
 <p align="center">
-  <img src="https://media.giphy.com/media/3oEjI6SIIHBdRxXI40/giphy.gif" width="600" alt="Tech animation"/>
+  <img src="https://media.giphy.com/media/l0MYK8vnn4xZ9v4FW/giphy.gif" width="500"/>
 </p>
 
 
