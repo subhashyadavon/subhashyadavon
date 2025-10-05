@@ -18,13 +18,11 @@
 ![Java](https://img.shields.io/badge/Java-007396?logo=java&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-003B57?logo=postgresql&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
 ![C/C++](https://img.shields.io/badge/C%2FC++-00599C?logo=cplusplus&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?logo=mongodb&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?logo=amazonaws&logoColor=white)
-![GCP](https://img.shields.io/badge/GCP-4285F4?logo=googlecloud&logoColor=white)
+![Cloud](https://img.shields.io/badge/Cloud_Computing-Services-0A66C2?logo=icloud&logoColor=white)![Cloud](https://img.shields.io/badge/Cloud_Computing-Services-0A66C2?logo=icloud&logoColor=white)
 
 
 **AI/ML**  
@@ -33,6 +31,7 @@
 ![LangGraph](https://img.shields.io/badge/LangGraph-AI_Workflows-9cf)
 ![VectorDB](https://img.shields.io/badge/Vector_Database-Semantic_Search-success)
 ![LangChain](https://img.shields.io/badge/LangChain-AI_Workflows-red)
+![AI Agents](https://img.shields.io/badge/AI_Agents-Autonomous_Systems-8A2BE2)
 
 ---
 
