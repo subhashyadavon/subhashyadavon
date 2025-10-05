@@ -22,7 +22,7 @@
 ![C/C++](https://img.shields.io/badge/C%2FC++-00599C?logo=cplusplus&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?logo=mongodb&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
-![Cloud](https://img.shields.io/badge/Cloud_Computing-Services-0A66C2?logo=icloud&logoColor=white)![Cloud](https://img.shields.io/badge/Cloud_Computing-Services-0A66C2?logo=icloud&logoColor=white)
+![Cloud](https://img.shields.io/badge/Cloud_Computing-Services-0A66C2?logo=icloud&logoColor=white)
 
 
 **AI/ML**  
