@@ -1,14 +1,14 @@
 # 👋 Hi, I’m Subhash Yadav  
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?size=28&duration=5000&color=00FFCC&font=Fira+Code&lines=AI%2FML+Engineer;Full-Stack+Engineer;Backend+Engineer;Software+Engineer)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?size=28&duration=5000&color=00FFCC&font=Fira+Code&lines=Software+Engineer)](https://git.io/typing-svg)
 
 ---
 
 ### 🚀 About Me  
 - 🎓 Fourth-year CS student at the **University of Manitoba** (Minor in Mathematics)  
-- 💻 Hands-on experience in **Software Engineering** and **AI training data**  
+- 💻 Hands-on experience in **Software Engineering** and **Open-Source Contribution**  
 - 🔭 Built projects in **AI/ML, Full-Stack, Operating Systems, and Databases**  
-- 🌱 Currently exploring **AI/ML systems and distributed computing**  
+- 🌱 Currently exploring **AI/ML systems and Full-Stack Systems**  
 
 ---
 
