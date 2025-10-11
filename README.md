@@ -1,5 +1,4 @@
 # 👋 Hi, I’m Subhash Yadav  
-# 👋 Hi, I’m Subhash Yadav  
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?size=28&duration=5000&color=00FFCC&font=Fira+Code&lines=AI%2FML+Engineer;Full-Stack+Engineer;Backend+Engineer;Software+Engineer)](https://git.io/typing-svg)
 
