@@ -1,6 +1,6 @@
 # 👋 Hi, I’m Subhash Yadav  
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?size=28&duration=5000&color=00FFCC&font=Fira+Code&lines=Software+Engineer)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?size=28&duration=5000&color=00FFCC&font=Fira+Code&lines=Software+Engineer,AI+Engineer)](https://git.io/typing-svg)
 
 ---
 
