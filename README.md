@@ -48,12 +48,12 @@ ai_ml:
   specialties: [LLMs, NLP, AI Agents, Vector Databases]
   
 full_stack:
-  frontend: [React, Next.js, TypeScript, TailwindCSS]
-  backend: [Node.js, Express, Python, Java]
-  databases: [MongoDB, PostgreSQL, Redis]
+  frontend: [React, Next.js, TypeScript]
+  backend: [Node.js, Express, .Net Core, C#, Java, Python]
+  databases: [MongoDB, PostgreSQL]
   
 infrastructure:
-  tools: [Docker, Kubernetes, AWS, Git]
+  tools: [Docker, Kubernetes, AWS, Azure, Git, Terraform]
   os: [Linux]
 ```
 
@@ -63,9 +63,13 @@ infrastructure:
 
 ## 📊 GITHUB STATS
 
-<img src="https://github-readme-stats.vercel.app/api?username=subbhashyadavon&show_icons=true&theme=tokyonight&hide_border=true&bg_color=1a1b27&title_color=6366f1&icon_color=6366f1&text_color=c0caf5&rank_icon=github" alt="GitHub Stats" height="180"/>
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=subhashyadavon&show_icons=true&theme=tokyonight&hide_border=true&bg_color=1a1b27&title_color=6366f1&icon_color=6366f1&text_color=c0caf5&rank_icon=github" alt="GitHub Stats" height="180"/>
+</p>
 
-<img src="https://github-readme-streak-stats.herokuapp.com?user=YOUR_USERNAME&theme=tokyonight&hide_border=true&background=1a1b27&stroke=6366f1&ring=6366f1&fire=f97316&currStreakLabel=6366f1" alt="GitHub Streak" height="180"/>
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=subhashyadavon&theme=tokyonight&hide_border=true&background=1a1b27&stroke=6366f1&ring=6366f1&fire=f97316&currStreakLabel=6366f1" alt="GitHub Streak" height="180"/>
+</p>
 
 </div>
 
