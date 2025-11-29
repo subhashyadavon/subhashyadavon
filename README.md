@@ -2,7 +2,7 @@
 
 # SUBHASH YADAV
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=2800&pause=800&color=#00FF41&center=true&vCenter=true&width=600&height=100&lines=AI%2FML+Engineer;Backend+Engineer;Full-Stack+Developer;Building+Intelligent+Systems)](https://git.io/typing-svg) 
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=2800&pause=800&color=00FF41&center=true&vCenter=true&width=600&height=100&lines=AI%2FML+Engineer;Backend+Engineer;Full-Stack+Developer;Building+Intelligent+Systems)](https://git.io/typing-svg) 
 
 </div>
 
