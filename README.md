@@ -3,7 +3,7 @@
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?size=28&duration=5000&color=00FFCC&font=Fira+Code&lines=AI%2FML+Engineer;Full-Stack+Developer;Backend+Engineer;Building+Intelligent+Systems)](https://git.io/typing-svg)
 
 ---
-## 🎯 WHAT I BUILD
+## 🏗️ WHAT I BUILD
 
 <table>
 <tr>
@@ -29,7 +29,7 @@
 
 ---
 
-## 🧰 Tech Arsenal  
+## 💻 Stack
 
 **Frontend**  
 ![React](https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=black)
