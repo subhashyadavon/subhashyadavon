@@ -37,12 +37,16 @@
 
 ---
 
-### 🛠️ Tech Stacks  
+<div align="center">
+
+### 🛠️ Tech Arsenal  
 
 **Frontend**  
 ![React](https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=black)
 ![Next.js](https://img.shields.io/badge/Next.js-000000?logo=next.js&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
+
+<br>
 
 **Backend**  
 ![Node.js](https://img.shields.io/badge/Node.js-339933?logo=node.js&logoColor=white)
@@ -52,9 +56,13 @@
 ![Java](https://img.shields.io/badge/Java-007396?logo=java&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
 
+<br>
+
 **Databases**  
 ![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?logo=mongodb&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?logo=postgresql&logoColor=white)
+
+<br>
 
 **AI / ML**  
 ![LangChain](https://img.shields.io/badge/LangChain-AI_Workflows-red)
@@ -66,6 +74,8 @@
 ![AI Agents](https://img.shields.io/badge/AI_Agents-Autonomous_Systems-8A2BE2)
 ![VectorDB](https://img.shields.io/badge/Vector_Database-Semantic_Search-success)
 
+<br>
+
 **Infrastructure / Tools**  
 ![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?logo=kubernetes&logoColor=white)
@@ -74,6 +84,8 @@
 ![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white)
 ![Terraform](https://img.shields.io/badge/Terraform-623CE4?logo=terraform&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?logo=linux&logoColor=black)
+
+</div>
 
 
 ---
