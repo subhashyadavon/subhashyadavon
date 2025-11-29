@@ -63,14 +63,14 @@ infrastructure:
 
 ## 📊 GitHub Stats
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=subhashyadavon&show_icons=true&theme=tokyonight&hide_border=true&bg_color=1a1b27&title_color=6366f1&icon_color=6366f1&text_color=c0caf5&cache_seconds=7200)
+![GitHub Stats](https://github-readme-stats-subhash.vercel.app/api?username=subhashyadavon&show_icons=true&theme=tokyonight&hide_border=true)
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=subhashyadavon&layout=compact&theme=tokyonight&hide_border=true&bg_color=1a1b27&title_color=6366f1&text_color=c0caf5&cache_seconds=7200)
+![Top Languages](https://github-readme-stats-subhash.vercel.app/api/top-langs/?username=subhashyadavon&layout=compact&theme=tokyonight&hide_border=true)
 
 ![Streak Stats](https://github-readme-streak-stats.herokuapp.com/?user=subhashyadavon&theme=tokyonight&hide_border=true&background=1a1b27&ring=6366f1&fire=6366f1&currStreakLabel=c0caf5)
 
-
 </div>
+
 
 
 ---
