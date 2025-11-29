@@ -3,46 +3,33 @@
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?size=28&duration=5000&color=00FFCC&font=Fira+Code&lines=AI%2FML+Engineer;Full-Stack+Developer;Backend+Engineer;Building+Intelligent+Systems)](https://git.io/typing-svg)
 
 ---
-
 ## 🎯 WHAT I BUILD
 
-<table align="center">
+<table>
 <tr>
-<td align="center" width="33%">
-<img src="https://media.giphy.com/media/3o7TKtnuHOHHUjR38Y/giphy.gif" width="80"/>
+<td width="33%">
+<img src="https://img.icons8.com/fluency/96/000000/artificial-intelligence.png" width="80"/>
 <br><b>AI SYSTEMS</b>
 <br>LLMs • Agents • RAG
-<br>
-<img src="https://img.shields.io/badge/LLM-💡-blueviolet" height="20"/>
-<img src="https://img.shields.io/badge/NLP-📝-orange" height="20"/>
-<img src="https://img.shields.io/badge/AI_Agents-🤖-8A2BE2" height="20"/>
 </td>
 
-<td align="center" width="33%">
-<img src="https://media.giphy.com/media/xT9IgG50Fb7Mi0prBC/giphy.gif" width="80"/>
+<td width="33%">
+<img src="https://img.icons8.com/fluency/96/000000/code.png" width="80"/>
 <br><b>FULL-STACK</b>
 <br>React • Node • Cloud
-<br>
-<img src="https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=black" height="20"/>
-<img src="https://img.shields.io/badge/Node.js-339933?logo=node.js&logoColor=white" height="20"/>
-<img src="https://img.shields.io/badge/AWS-232F3E?logo=amazon-aws&logoColor=white" height="20"/>
 </td>
 
-<td align="center" width="33%">
-<img src="https://media.giphy.com/media/l3vR0kDi4lX1xd6tK/giphy.gif" width="80"/>
+<td width="33%">
+<img src="https://img.icons8.com/fluency/96/000000/data-configuration.png" width="80"/>
 <br><b>DISTRIBUTED</b>
 <br>Scalable • Microservices
-<br>
-<img src="https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white" height="20"/>
-<img src="https://img.shields.io/badge/Kubernetes-326CE5?logo=kubernetes&logoColor=white" height="20"/>
-<img src="https://img.shields.io/badge/Microservices-⚙️-00FF41" height="20"/>
 </td>
 </tr>
 </table>
 
 ---
 
-## 🛠️ Tech Arsenal  
+## 🧰 Tech Arsenal  
 
 **Frontend**  
 ![React](https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=black)
