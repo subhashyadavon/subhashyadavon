@@ -24,6 +24,8 @@
 <br><b>DISTRIBUTED</b>
 <br>Scalable&nbsp;•&nbsp;Microservices
 </td>
+</tr>
+</table>
 
 ---
 
