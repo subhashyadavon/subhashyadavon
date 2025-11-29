@@ -6,25 +6,18 @@
 
 ## 🎯 WHAT I BUILD
 
-<table>
-<tr>
-<td align="center" width="33%">
-<img src="https://img.icons8.com/fluency/96/000000/artificial-intelligence.png" width="80"/>
-<br><b>AI SYSTEMS</b>
-<br>LLMs • Agents • RAG
-</td>
-<td align="center" width="33%">
-<img src="https://img.icons8.com/fluency/96/000000/code.png" width="80"/>
-<br><b>FULL-STACK</b>
-<br>React • Node • Cloud
-</td>
-<td align="center" width="33%">
-<img src="https://img.icons8.com/fluency/96/000000/data-configuration.png" width="80"/>
-<br><b>DISTRIBUTED</b>
-<br>Scalable • Microservices
-</td>
-</tr>
-</table>
+**AI SYSTEMS**  
+![AI](https://img.icons8.com/fluency/48/000000/artificial-intelligence.png)  
+LLMs • Agents • RAG
+
+**FULL-STACK DEVELOPMENT**  
+![Code](https://img.icons8.com/fluency/48/000000/code.png)  
+React • Node • Cloud
+
+**DISTRIBUTED SYSTEMS**  
+![Distributed](https://img.icons8.com/fluency/48/000000/data-configuration.png)  
+Scalable • Microservices
+
 
 ---
 
