@@ -61,15 +61,14 @@ infrastructure:
 
 <div align="center">
 
-## 📊 GITHUB STATS
+## 📊 GitHub Stats
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=subhashyadavon&show_icons=true&theme=tokyonight&hide_border=true&bg_color=1a1b27&title_color=6366f1&icon_color=6366f1&text_color=c0caf5" alt="GitHub Stats" height="180"/>
-</p>
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=subhashyadavon&show_icons=true&theme=tokyonight&hide_border=true&bg_color=1a1b27&title_color=6366f1&icon_color=6366f1&text_color=c0caf5&cache_seconds=7200)
 
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=subhashyadavon&theme=tokyonight&hide_border=true&background=1a1b27&stroke=6366f1&ring=6366f1&fire=f97316&currStreakLabel=6366f1" alt="GitHub Streak" height="180"/>
-</p>
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=subhashyadavon&layout=compact&theme=tokyonight&hide_border=true&bg_color=1a1b27&title_color=6366f1&text_color=c0caf5&cache_seconds=7200)
+
+![Streak Stats](https://github-readme-streak-stats.herokuapp.com/?user=subhashyadavon&theme=tokyonight&hide_border=true&background=1a1b27&ring=6366f1&fire=6366f1&currStreakLabel=c0caf5)
+
 
 </div>
 
