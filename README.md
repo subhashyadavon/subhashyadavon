@@ -7,16 +7,16 @@
 
 <table>
 <tr>
-<td width="33%">
+<td width="33%" align="center">
 <img src="https://img.icons8.com/fluency/96/000000/artificial-intelligence.png" width="80"/>
 <br><b>AI SYSTEMS</b>
-<br>LLMs • Agents • RAG
+<br>LLMs&nbsp;•&nbsp;Agents&nbsp;•&nbsp;RAG
 </td>
 
-<td width="33%">
+<td width="33%" align="center">
 <img src="https://img.icons8.com/fluency/96/000000/code.png" width="80"/>
 <br><b>FULL-STACK</b>
-<br>React • Node • Cloud
+<br>React&nbsp;•&nbsp;Node&nbsp;•&nbsp;Cloud
 </td>
 
 <td width="33%" align="center">
@@ -26,6 +26,7 @@
 </td>
 </tr>
 </table>
+
 
 ---
 
