@@ -1,21 +1,12 @@
-<div align="center">
-
 # 👋 Hi, I’m Subhash Yadav  
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?size=28&duration=5000&color=00FFCC&font=Fira+Code&lines=AI%2FML+Engineer;Full-Stack+Developer;Backend+Engineer;Building+Intelligent+Systems)](https://git.io/typing-svg)
 
-
-</div>
-
 ---
-
-<div align="center">
 
 ## 🎯 WHAT I BUILD
 
-</div>
-
-<table align="center">
+<table>
 <tr>
 <td align="center" width="33%">
 <img src="https://img.icons8.com/fluency/96/000000/artificial-intelligence.png" width="80"/>
@@ -37,16 +28,12 @@
 
 ---
 
-<div align="center">
-
 ### 🛠️ Tech Arsenal  
 
 **Frontend**  
 ![React](https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=black)
 ![Next.js](https://img.shields.io/badge/Next.js-000000?logo=next.js&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
-
-<br>
 
 **Backend**  
 ![Node.js](https://img.shields.io/badge/Node.js-339933?logo=node.js&logoColor=white)
@@ -56,13 +43,9 @@
 ![Java](https://img.shields.io/badge/Java-007396?logo=java&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
 
-<br>
-
 **Databases**  
 ![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?logo=mongodb&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?logo=postgresql&logoColor=white)
-
-<br>
 
 **AI / ML**  
 ![LangChain](https://img.shields.io/badge/LangChain-AI_Workflows-red)
@@ -74,8 +57,6 @@
 ![AI Agents](https://img.shields.io/badge/AI_Agents-Autonomous_Systems-8A2BE2)
 ![VectorDB](https://img.shields.io/badge/Vector_Database-Semantic_Search-success)
 
-<br>
-
 **Infrastructure / Tools**  
 ![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?logo=kubernetes&logoColor=white)
@@ -85,23 +66,13 @@
 ![Terraform](https://img.shields.io/badge/Terraform-623CE4?logo=terraform&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?logo=linux&logoColor=black)
 
-</div>
-
-
 ---
-
-<div align="center">
 
 ## 📊 GitHub Stats
 
 ![Streak Stats](https://github-readme-streak-stats.herokuapp.com/?user=subhashyadavon&theme=tokyonight&hide_border=true&background=1a1b27&ring=6366f1&fire=6366f1&currStreakLabel=c0caf5)
 
-</div>
-
-
 ---
-
-<div align="center">
 
 ## 🎓 BACKGROUND
 
@@ -114,28 +85,17 @@ AI Systems • Distributed Computing • Cloud Architecture
 **Location**  
 📍 Winnipeg, Manitoba, Canada
 
-</div>
-
 ---
-
-<div align="center">
 
 ## 🤝 LET'S CONNECT
 
-[![LinkedIn](https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/subhashyadavon)
-[![GitHub](https://img.shields.io/badge/GITHUB-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/subhashyadavon)
-[![Email](https://img.shields.io/badge/EMAIL-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:subhashyadavon@gmail.com)
-
-<br>
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?logo=linkedin&logoColor=white)](https://linkedin.com/in/subhashyadavon)
+[![GitHub](https://img.shields.io/badge/GITHUB-181717?logo=github&logoColor=white)](https://github.com/subhashyadavon)
+[![Email](https://img.shields.io/badge/EMAIL-EA4335?logo=gmail&logoColor=white)](mailto:subhashyadavon@gmail.com)
 
 ![](https://komarev.com/ghpvc/?username=subhashyadavon&color=6366f1&style=for-the-badge&label=PROFILE+VIEWS)
 
-</div>
-
 ---
-
-<div align="center">
 
 **Open to collaborations • Building the future with code**
 
-</div>
