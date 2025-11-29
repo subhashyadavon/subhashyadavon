@@ -36,59 +36,44 @@
 
 ---
 
-<div align="center">
+### 🛠️ Tech Stacks  
 
-## ⚡ TECH ARSENAL
+**Frontend**  
+![React](https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=black)
+![Next.js](https://img.shields.io/badge/Next.js-000000?logo=next.js&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
 
-</div>
+**Backend**  
+![Node.js](https://img.shields.io/badge/Node.js-339933?logo=node.js&logoColor=white)
+![Express](https://img.shields.io/badge/Express-000000?logo=express&logoColor=white)
+![C#](https://img.shields.io/badge/C%23-239120?logo=c-sharp&logoColor=white)
+![.NET Core](https://img.shields.io/badge/.NET_Core-512BD4?logo=dot-net&logoColor=white)
+![Java](https://img.shields.io/badge/Java-007396?logo=java&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
 
-<div align="center">
+**Databases**  
+![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?logo=mongodb&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?logo=postgresql&logoColor=white)
 
-<!-- AI / ML -->
-<img src="https://img.icons8.com/color/24/artificial-intelligence.png"/> LangChain &nbsp;&nbsp;
-<img src="https://img.icons8.com/color/24/artificial-intelligence.png"/> LangGraph &nbsp;&nbsp;
-<img src="https://img.icons8.com/color/24/tensorflow.png"/> TensorFlow &nbsp;&nbsp;
-<img src="https://img.icons8.com/color/24/pytorch.png"/> PyTorch &nbsp;&nbsp;
-<img src="https://img.icons8.com/color/24/brain.png"/> LLMs &nbsp;&nbsp;
-<img src="https://img.icons8.com/color/24/artificial-intelligence.png"/> NLP &nbsp;&nbsp;
-<img src="https://img.icons8.com/color/24/artificial-intelligence.png"/> AI Agents &nbsp;&nbsp;
-<img src="https://img.icons8.com/color/24/database.png"/> Vector DBs
+**AI / ML**  
+![LangChain](https://img.shields.io/badge/LangChain-AI_Workflows-red)
+![LangGraph](https://img.shields.io/badge/LangGraph-AI_Workflows-9cf)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?logo=tensorflow&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?logo=pytorch&logoColor=white)
+![LLMs](https://img.shields.io/badge/LLMs-Large_Language_Models-blueviolet)
+![NLP](https://img.shields.io/badge/NLP-Natural_Language_Processing-orange)
+![AI Agents](https://img.shields.io/badge/AI_Agents-Autonomous_Systems-8A2BE2)
+![VectorDB](https://img.shields.io/badge/Vector_Database-Semantic_Search-success)
 
-<br><br>
+**Infrastructure / Tools**  
+![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?logo=kubernetes&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?logo=amazon-aws&logoColor=white)
+![Azure](https://img.shields.io/badge/Azure-0078D4?logo=microsoft-azure&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white)
+![Terraform](https://img.shields.io/badge/Terraform-623CE4?logo=terraform&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?logo=linux&logoColor=black)
 
-<!-- Frontend -->
-<img src="https://img.icons8.com/color/24/react-native.png"/> React &nbsp;&nbsp;
-<img src="https://img.icons8.com/color/24/nextjs.png"/> Next.js &nbsp;&nbsp;
-<img src="https://img.icons8.com/color/24/typescript.png"/> TypeScript
-
-<br><br>
-
-<!-- Backend -->
-<img src="https://img.icons8.com/color/24/nodejs.png"/> Node.js &nbsp;&nbsp;
-<img src="https://img.icons8.com/color/24/express-js.png"/> Express &nbsp;&nbsp;
-<img src="https://img.icons8.com/color/24/c-sharp-logo.png"/> C# &nbsp;&nbsp;
-<img src="https://img.icons8.com/color/24/net-core.png"/> .NET Core &nbsp;&nbsp;
-<img src="https://img.icons8.com/color/24/java-coffee-cup-logo.png"/> Java &nbsp;&nbsp;
-<img src="https://img.icons8.com/color/24/python.png"/> Python
-
-<br><br>
-
-<!-- Databases -->
-<img src="https://img.icons8.com/color/24/mongodb.png"/> MongoDB &nbsp;&nbsp;
-<img src="https://img.icons8.com/color/24/postgreesql.png"/> PostgreSQL
-
-<br><br>
-
-<!-- Infrastructure -->
-<img src="https://img.icons8.com/color/24/docker.png"/> Docker &nbsp;&nbsp;
-<img src="https://img.icons8.com/color/24/kubernetes.png"/> Kubernetes &nbsp;&nbsp;
-<img src="https://img.icons8.com/color/24/amazon-web-services.png"/> AWS &nbsp;&nbsp;
-<img src="https://img.icons8.com/color/24/azure-1.png"/> Azure &nbsp;&nbsp;
-<img src="https://img.icons8.com/color/24/git.png"/> Git &nbsp;&nbsp;
-<img src="https://img.icons8.com/color/24/terraform.png"/> Terraform &nbsp;&nbsp;
-<img src="https://img.icons8.com/color/24/linux.png"/> Linux
-
-</div>
 
 ---
 
