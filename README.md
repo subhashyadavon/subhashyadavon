@@ -6,17 +6,37 @@
 
 ## 🎯 WHAT I BUILD
 
-**AI SYSTEMS**  
-![AI](https://img.icons8.com/fluency/48/000000/artificial-intelligence.png)  
-LLMs • Agents • RAG
+<div style="display: flex; justify-content: space-between; flex-wrap: wrap; max-width: 900px; margin-top: 20px;">
 
-**FULL-STACK DEVELOPMENT**  
-![Code](https://img.icons8.com/fluency/48/000000/code.png)  
-React • Node • Cloud
+  <!-- AI SYSTEMS -->
+  <div style="flex: 1; text-align: center; margin: 10px;">
+    <img src="https://media.giphy.com/media/3o7TKtnuHOHHUjR38Y/giphy.gif" width="80"/>
+    <h3>AI SYSTEMS</h3>
+    <p>LLMs • Agents • RAG</p>
+    <img src="https://img.shields.io/badge/LLM-💡-blueviolet?logo=data:image/svg+xml" height="20"/>
+    <img src="https://img.shields.io/badge/NLP-📝-orange" height="20"/>
+  </div>
 
-**DISTRIBUTED SYSTEMS**  
-![Distributed](https://img.icons8.com/fluency/48/000000/data-configuration.png)  
-Scalable • Microservices
+  <!-- FULL-STACK -->
+  <div style="flex: 1; text-align: center; margin: 10px;">
+    <img src="https://media.giphy.com/media/xT9IgG50Fb7Mi0prBC/giphy.gif" width="80"/>
+    <h3>FULL-STACK</h3>
+    <p>React • Node • Cloud</p>
+    <img src="https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=black" height="20"/>
+    <img src="https://img.shields.io/badge/Node.js-339933?logo=node.js&logoColor=white" height="20"/>
+    <img src="https://img.shields.io/badge/AWS-232F3E?logo=amazon-aws&logoColor=white" height="20"/>
+  </div>
+
+  <!-- DISTRIBUTED SYSTEMS -->
+  <div style="flex: 1; text-align: center; margin: 10px;">
+    <img src="https://media.giphy.com/media/l3vR0kDi4lX1xd6tK/giphy.gif" width="80"/>
+    <h3>DISTRIBUTED SYSTEMS</h3>
+    <p>Scalable • Microservices</p>
+    <img src="https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white" height="20"/>
+    <img src="https://img.shields.io/badge/Kubernetes-326CE5?logo=kubernetes&logoColor=white" height="20"/>
+  </div>
+
+</div>
 
 
 ---
