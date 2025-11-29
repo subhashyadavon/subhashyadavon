@@ -42,55 +42,53 @@
 
 </div>
 
-<table>
-<tr>
-<td width="33%" valign="top" align="center">
+<div align="center">
 
-### AI / ML  
-<img src="https://img.icons8.com/color/48/artificial-intelligence.png"/> LangChain  
-<img src="https://img.icons8.com/color/48/artificial-intelligence.png"/> LangGraph  
-<img src="https://img.icons8.com/color/48/tensorflow.png"/> TensorFlow  
-<img src="https://img.icons8.com/color/48/pytorch.png"/> PyTorch  
-<img src="https://img.icons8.com/color/48/brain.png"/> LLMs  
-<img src="https://img.icons8.com/color/48/artificial-intelligence.png"/> NLP  
-<img src="https://img.icons8.com/color/48/artificial-intelligence.png"/> AI Agents  
-<img src="https://img.icons8.com/color/48/database.png"/> Vector Databases
+<!-- AI / ML -->
+<img src="https://img.icons8.com/color/24/artificial-intelligence.png"/> LangChain &nbsp;&nbsp;
+<img src="https://img.icons8.com/color/24/artificial-intelligence.png"/> LangGraph &nbsp;&nbsp;
+<img src="https://img.icons8.com/color/24/tensorflow.png"/> TensorFlow &nbsp;&nbsp;
+<img src="https://img.icons8.com/color/24/pytorch.png"/> PyTorch &nbsp;&nbsp;
+<img src="https://img.icons8.com/color/24/brain.png"/> LLMs &nbsp;&nbsp;
+<img src="https://img.icons8.com/color/24/artificial-intelligence.png"/> NLP &nbsp;&nbsp;
+<img src="https://img.icons8.com/color/24/artificial-intelligence.png"/> AI Agents &nbsp;&nbsp;
+<img src="https://img.icons8.com/color/24/database.png"/> Vector DBs
 
-</td>
-<td width="33%" valign="top" align="center">
+<br><br>
 
-### Frontend  
-<img src="https://img.icons8.com/color/48/react-native.png"/> React  
-<img src="https://img.icons8.com/color/48/nextjs.png"/> Next.js  
-<img src="https://img.icons8.com/color/48/typescript.png"/> TypeScript  
+<!-- Frontend -->
+<img src="https://img.icons8.com/color/24/react-native.png"/> React &nbsp;&nbsp;
+<img src="https://img.icons8.com/color/24/nextjs.png"/> Next.js &nbsp;&nbsp;
+<img src="https://img.icons8.com/color/24/typescript.png"/> TypeScript
 
-### Backend  
-<img src="https://img.icons8.com/color/48/nodejs.png"/> Node.js  
-<img src="https://img.icons8.com/color/48/express-js.png"/> Express  
-<img src="https://img.icons8.com/color/48/c-sharp-logo.png"/> C#  
-<img src="https://img.icons8.com/color/48/net-core.png"/> .NET Core  
-<img src="https://img.icons8.com/color/48/java-coffee-cup-logo.png"/> Java  
-<img src="https://img.icons8.com/color/48/python.png"/> Python  
+<br><br>
 
-### Databases  
-<img src="https://img.icons8.com/color/48/mongodb.png"/> MongoDB  
-<img src="https://img.icons8.com/color/48/postgreesql.png"/> PostgreSQL
+<!-- Backend -->
+<img src="https://img.icons8.com/color/24/nodejs.png"/> Node.js &nbsp;&nbsp;
+<img src="https://img.icons8.com/color/24/express-js.png"/> Express &nbsp;&nbsp;
+<img src="https://img.icons8.com/color/24/c-sharp-logo.png"/> C# &nbsp;&nbsp;
+<img src="https://img.icons8.com/color/24/net-core.png"/> .NET Core &nbsp;&nbsp;
+<img src="https://img.icons8.com/color/24/java-coffee-cup-logo.png"/> Java &nbsp;&nbsp;
+<img src="https://img.icons8.com/color/24/python.png"/> Python
 
-</td>
-<td width="33%" valign="top" align="center">
+<br><br>
 
-### Infrastructure  
-<img src="https://img.icons8.com/color/48/docker.png"/> Docker  
-<img src="https://img.icons8.com/color/48/kubernetes.png"/> Kubernetes  
-<img src="https://img.icons8.com/color/48/amazon-web-services.png"/> AWS  
-<img src="https://img.icons8.com/color/48/azure-1.png"/> Azure  
-<img src="https://img.icons8.com/color/48/git.png"/> Git  
-<img src="https://img.icons8.com/color/48/terraform.png"/> Terraform  
-<img src="https://img.icons8.com/color/48/linux.png"/> Linux
+<!-- Databases -->
+<img src="https://img.icons8.com/color/24/mongodb.png"/> MongoDB &nbsp;&nbsp;
+<img src="https://img.icons8.com/color/24/postgreesql.png"/> PostgreSQL
 
-</td>
-</tr>
-</table>
+<br><br>
+
+<!-- Infrastructure -->
+<img src="https://img.icons8.com/color/24/docker.png"/> Docker &nbsp;&nbsp;
+<img src="https://img.icons8.com/color/24/kubernetes.png"/> Kubernetes &nbsp;&nbsp;
+<img src="https://img.icons8.com/color/24/amazon-web-services.png"/> AWS &nbsp;&nbsp;
+<img src="https://img.icons8.com/color/24/azure-1.png"/> Azure &nbsp;&nbsp;
+<img src="https://img.icons8.com/color/24/git.png"/> Git &nbsp;&nbsp;
+<img src="https://img.icons8.com/color/24/terraform.png"/> Terraform &nbsp;&nbsp;
+<img src="https://img.icons8.com/color/24/linux.png"/> Linux
+
+</div>
 
 ---
 
