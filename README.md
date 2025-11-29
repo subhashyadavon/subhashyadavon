@@ -42,20 +42,55 @@
 
 </div>
 
-```yaml
-ai_ml:
-  frameworks: [LangChain, LangGraph, TensorFlow, PyTorch]
-  specialties: [LLMs, NLP, AI Agents, Vector Databases]
-  
-full_stack:
-  frontend: [React, Next.js, TypeScript]
-  backend: [Node.js, Express, .Net Core, C#, Java, Python]
-  databases: [MongoDB, PostgreSQL]
-  
-infrastructure:
-  tools: [Docker, Kubernetes, AWS, Azure, Git, Terraform]
-  os: [Linux]
-```
+<table>
+<tr>
+<td width="33%" valign="top" align="center">
+
+### AI / ML  
+<img src="https://img.icons8.com/color/48/artificial-intelligence.png"/> LangChain  
+<img src="https://img.icons8.com/color/48/artificial-intelligence.png"/> LangGraph  
+<img src="https://img.icons8.com/color/48/tensorflow.png"/> TensorFlow  
+<img src="https://img.icons8.com/color/48/pytorch.png"/> PyTorch  
+<img src="https://img.icons8.com/color/48/brain.png"/> LLMs  
+<img src="https://img.icons8.com/color/48/artificial-intelligence.png"/> NLP  
+<img src="https://img.icons8.com/color/48/artificial-intelligence.png"/> AI Agents  
+<img src="https://img.icons8.com/color/48/database.png"/> Vector Databases
+
+</td>
+<td width="33%" valign="top" align="center">
+
+### Frontend  
+<img src="https://img.icons8.com/color/48/react-native.png"/> React  
+<img src="https://img.icons8.com/color/48/nextjs.png"/> Next.js  
+<img src="https://img.icons8.com/color/48/typescript.png"/> TypeScript  
+
+### Backend  
+<img src="https://img.icons8.com/color/48/nodejs.png"/> Node.js  
+<img src="https://img.icons8.com/color/48/express-js.png"/> Express  
+<img src="https://img.icons8.com/color/48/c-sharp-logo.png"/> C#  
+<img src="https://img.icons8.com/color/48/net-core.png"/> .NET Core  
+<img src="https://img.icons8.com/color/48/java-coffee-cup-logo.png"/> Java  
+<img src="https://img.icons8.com/color/48/python.png"/> Python  
+
+### Databases  
+<img src="https://img.icons8.com/color/48/mongodb.png"/> MongoDB  
+<img src="https://img.icons8.com/color/48/postgreesql.png"/> PostgreSQL
+
+</td>
+<td width="33%" valign="top" align="center">
+
+### Infrastructure  
+<img src="https://img.icons8.com/color/48/docker.png"/> Docker  
+<img src="https://img.icons8.com/color/48/kubernetes.png"/> Kubernetes  
+<img src="https://img.icons8.com/color/48/amazon-web-services.png"/> AWS  
+<img src="https://img.icons8.com/color/48/azure-1.png"/> Azure  
+<img src="https://img.icons8.com/color/48/git.png"/> Git  
+<img src="https://img.icons8.com/color/48/terraform.png"/> Terraform  
+<img src="https://img.icons8.com/color/48/linux.png"/> Linux
+
+</td>
+</tr>
+</table>
 
 ---
 
