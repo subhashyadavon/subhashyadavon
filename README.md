@@ -19,13 +19,11 @@
 <br>React • Node • Cloud
 </td>
 
-<td width="33%">
+<td width="33%" align="center">
 <img src="https://img.icons8.com/fluency/96/000000/data-configuration.png" width="80"/>
 <br><b>DISTRIBUTED</b>
-<br>Scalable • Microservices
+<br>Scalable&nbsp;•&nbsp;Microservices
 </td>
-</tr>
-</table>
 
 ---
 
