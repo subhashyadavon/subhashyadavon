@@ -2,7 +2,7 @@
 
 # SUBHASH YADAV
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=2800&pause=800&color=6366F1&center=true&vCenter=true&width=600&height=100&lines=AI%2FML+Engineer;Full-Stack+Developer;Building+Intelligent+Systems)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=2800&pause=800&color=6366F1&center=true&vCenter=true&width=600&height=100&lines=AI%2FML+Engineer;Backend+Engineer;Full-Stack+Developer;Building+Intelligent+Systems)](https://git.io/typing-svg)
 
 </div>
 
@@ -63,7 +63,7 @@ infrastructure:
 
 ## 📊 GITHUB STATS
 
-<img src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=tokyonight&hide_border=true&bg_color=1a1b27&title_color=6366f1&icon_color=6366f1&text_color=c0caf5&rank_icon=github" alt="GitHub Stats" height="180"/>
+<img src="https://github-readme-stats.vercel.app/api?username=subbhashyadavon&show_icons=true&theme=tokyonight&hide_border=true&bg_color=1a1b27&title_color=6366f1&icon_color=6366f1&text_color=c0caf5&rank_icon=github" alt="GitHub Stats" height="180"/>
 
 <img src="https://github-readme-streak-stats.herokuapp.com?user=YOUR_USERNAME&theme=tokyonight&hide_border=true&background=1a1b27&stroke=6366f1&ring=6366f1&fire=f97316&currStreakLabel=6366f1" alt="GitHub Streak" height="180"/>
 
@@ -93,12 +93,12 @@ AI Systems • Distributed Computing • Cloud Architecture
 ## 🤝 LET'S CONNECT
 
 [![LinkedIn](https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/subhashyadavon)
-[![GitHub](https://img.shields.io/badge/GITHUB-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/YOUR_USERNAME)
-[![Email](https://img.shields.io/badge/EMAIL-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your.email@example.com)
+[![GitHub](https://img.shields.io/badge/GITHUB-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/subhashyadavon)
+[![Email](https://img.shields.io/badge/EMAIL-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:subhashyadavon@gmail.com)
 
 <br>
 
-![](https://komarev.com/ghpvc/?username=YOUR_USERNAME&color=6366f1&style=for-the-badge&label=PROFILE+VIEWS)
+![](https://komarev.com/ghpvc/?username=subhashyadavon&color=6366f1&style=for-the-badge&label=PROFILE+VIEWS)
 
 </div>
 
