@@ -11,7 +11,7 @@
   <a href="https://github.com/subhashyadavon">
     <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
   </a>
-  <a href="mailto:subhashyadavon@gmail.com">
+  <a href="/cdn-cgi/l/email-protection#730006111b12001b0a121712051c1d33141e121a1f5d101c1e">
     <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
   </a>
 </p>
@@ -31,9 +31,9 @@
 
 ## 🚀 About Me
 
-I'm a **Computer Science student** at the **University of Manitoba** with a Minor in Mathematics, passionate about building intelligent systems at scale. Currently working as an **Applied AI Systems Engineer** in an industry project, and actively developing full-stack and AI-powered applications.
+I'm a **Computer Science student** at the **University of Manitoba** with a Minor in Mathematics, passionate about building intelligent systems at scale. Currently solving a real-world false alarm reduction problem for BIL Security Service Canada Ltd as part of an industry project, while actively developing full-stack and AI-powered applications.
 
-- 🔭 **Currently Working On:** Applied AI Systems Engineering at BIL Security Service Canada Ltd
+- 🔭 **Industry Project:** Reducing false alarm rates using Applied AI for BIL Security Service Canada Ltd
 - 🌱 **Learning:** LangChain, LangGraph, Voice AI, and Distributed Systems
 - 💬 **Ask Me About:** LLMs, RAG, AI Agents, ASP.NET Core, React, System Design
 - 📍 **Based in:** Winnipeg, Manitoba, Canada
@@ -44,25 +44,64 @@ I'm a **Computer Science student** at the **University of Manitoba** with a Mino
 ## 🏗️ What I Build
 
 <p align="center">
-<table>
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0d1117,100:1a1b27&height=3&section=header" width="100%"/>
+</p>
+
+<table align="center" border="0" cellspacing="0" cellpadding="0">
 <tr>
-<td width="33%" align="center">
-<img src="https://img.icons8.com/fluency/96/000000/artificial-intelligence.png" width="70"/>
-<br><br><b>AI SYSTEMS</b>
-<br><sub>LLMs &nbsp;•&nbsp; Agents &nbsp;•&nbsp; RAG</sub>
+<td align="center" width="32%">
+<br>
+<img src="https://img.icons8.com/fluency/96/000000/artificial-intelligence.png" width="64"/>
+<br><br>
+<img src="https://img.shields.io/badge/─────────────────-0d1117?style=flat"/>
+<br>
+<img src="https://img.shields.io/badge/AI%20SYSTEMS-00FFCC?style=for-the-badge&logoColor=black"/>
+<br><br>
+<img src="https://img.shields.io/badge/LLMs-blueviolet?style=flat-square"/>
+<img src="https://img.shields.io/badge/Agents-8A2BE2?style=flat-square"/>
+<img src="https://img.shields.io/badge/RAG-9cf?style=flat-square"/>
+<br>
+<img src="https://img.shields.io/badge/LangChain-red?style=flat-square"/>
+<img src="https://img.shields.io/badge/LangGraph-orange?style=flat-square"/>
+<br><br>
 </td>
-<td width="33%" align="center">
-<img src="https://img.icons8.com/fluency/96/000000/code.png" width="70"/>
-<br><br><b>FULL-STACK</b>
-<br><sub>React &nbsp;•&nbsp; .NET &nbsp;•&nbsp; Cloud</sub>
+<td align="center" width="4%"><sub>│</sub></td>
+<td align="center" width="32%">
+<br>
+<img src="https://img.icons8.com/fluency/96/000000/code.png" width="64"/>
+<br><br>
+<img src="https://img.shields.io/badge/─────────────────-0d1117?style=flat"/>
+<br>
+<img src="https://img.shields.io/badge/FULL--STACK-6366f1?style=for-the-badge&logoColor=white"/>
+<br><br>
+<img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black"/>
+<img src="https://img.shields.io/badge/.NET-512BD4?style=flat-square&logo=dot-net&logoColor=white"/>
+<br>
+<img src="https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoft-azure&logoColor=white"/>
+<img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white"/>
+<br><br>
 </td>
-<td width="33%" align="center">
-<img src="https://img.icons8.com/fluency/96/000000/data-configuration.png" width="70"/>
-<br><br><b>DISTRIBUTED</b>
-<br><sub>Scalable &nbsp;•&nbsp; Microservices</sub>
+<td align="center" width="4%"><sub>│</sub></td>
+<td align="center" width="32%">
+<br>
+<img src="https://img.icons8.com/fluency/96/000000/data-configuration.png" width="64"/>
+<br><br>
+<img src="https://img.shields.io/badge/─────────────────-0d1117?style=flat"/>
+<br>
+<img src="https://img.shields.io/badge/DISTRIBUTED-f97316?style=for-the-badge&logoColor=white"/>
+<br><br>
+<img src="https://img.shields.io/badge/Microservices-success?style=flat-square"/>
+<img src="https://img.shields.io/badge/Kafka-231F20?style=flat-square&logo=apache-kafka&logoColor=white"/>
+<br>
+<img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white"/>
+<img src="https://img.shields.io/badge/Terraform-623CE4?style=flat-square&logo=terraform&logoColor=white"/>
+<br><br>
 </td>
 </tr>
 </table>
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0d1117,100:1a1b27&height=3&section=header" width="100%"/>
 </p>
 
 ---
@@ -160,6 +199,5 @@ I'm always open to collaborating on interesting projects, especially those invol
 </p>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer"/>
-</p>
+  <img src="https://capsule-render.vercel.app/api?type=waving&co
 
