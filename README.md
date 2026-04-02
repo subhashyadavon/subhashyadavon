@@ -124,81 +124,47 @@ I'm a **Computer Science student** at the **University of Manitoba** with a Mino
 
 ## 🛠️ Featured Projects
 
-<table width="100%" border="0" cellspacing="6" cellpadding="0">
-
+<table width="100%">
+<thead>
 <tr>
-<td width="50%" valign="top">
-<img src="https://capsule-render.vercel.app/api?type=rounded&color=0:0d1117,100:0077B5&height=44&text=🚗%20CarDex&fontSize=18&fontColor=ffffff&animation=fadeIn&fontAlignY=55" width="100%"/>
-<br><br>
-Full-stack car trading platform with CI/CD, cloud deployment, and infrastructure as code.
-<br><br>
-<img src="https://img.shields.io/badge/ASP.NET%20Core-512BD4?style=flat-square&logo=dot-net&logoColor=white"/>
-<img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black"/>
-<img src="https://img.shields.io/badge/PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white"/>
-<img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white"/>
-<img src="https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoft-azure&logoColor=white"/>
-<img src="https://img.shields.io/badge/Terraform-623CE4?style=flat-square&logo=terraform&logoColor=white"/>
-<br><br>
-<a href="https://app-cardex.azurewebsites.net"><img src="https://img.shields.io/badge/🌐%20Live%20Demo-00BFFF?style=for-the-badge&logoColor=white"/></a>
-<br><br>
-</td>
-<td width="50%" valign="top">
-<img src="https://capsule-render.vercel.app/api?type=rounded&color=0:0d1117,100:16a34a&height=44&text=📱%20UStep&fontSize=18&fontColor=ffffff&animation=fadeIn&fontAlignY=55" width="100%"/>
-<br><br>
-Android grade analytics app with local database and automated testing.
-<br><br>
-<img src="https://img.shields.io/badge/Java-007396?style=flat-square&logoColor=white"/>
-<img src="https://img.shields.io/badge/Android%20Studio-3DDC84?style=flat-square&logo=android-studio&logoColor=white"/>
-<img src="https://img.shields.io/badge/HSQLDB-336791?style=flat-square&logoColor=white"/>
-<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
-<img src="https://img.shields.io/badge/JUnit-25A162?style=flat-square&logoColor=white"/>
-<br><br>
-<a href="https://github.com/subhashyadavon"><img src="https://img.shields.io/badge/📦%20APK-16a34a?style=for-the-badge&logoColor=white"/></a>
-<br><br>
-</td>
+<th>Project</th>
+<th>Description</th>
+<th>Stack</th>
+<th>Links</th>
 </tr>
-
+</thead>
+<tbody>
 <tr>
-<td width="50%" valign="top">
-<img src="https://capsule-render.vercel.app/api?type=rounded&color=0:0d1117,100:7c3aed&height=44&text=🎙️%20Voice%20Q%26A%20Chatbot&fontSize=18&fontColor=ffffff&animation=fadeIn&fontAlignY=55" width="100%"/>
-<br><br>
-RAG-powered voice chatbot with multi-agent orchestration and vector search.
-<br><br>
-<img src="https://img.shields.io/badge/LangChain-dc2626?style=flat-square&logoColor=white"/>
-<img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white"/>
-<img src="https://img.shields.io/badge/Pinecone-0ea5e9?style=flat-square&logoColor=white"/>
-<img src="https://img.shields.io/badge/LangGraph-ea580c?style=flat-square&logoColor=white"/>
-<br><br>
-</td>
-<td width="50%" valign="top">
-<img src="https://capsule-render.vercel.app/api?type=rounded&color=0:0d1117,100:f59e0b&height=44&text=🎬%20IMDB%20Sentiment%20Analysis&fontSize=16&fontColor=ffffff&animation=fadeIn&fontAlignY=55" width="100%"/>
-<br><br>
-ML pipeline for movie review classification using NLP techniques.
-<br><br>
-<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
-<img src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white"/>
-<img src="https://img.shields.io/badge/TF--IDF-f59e0b?style=flat-square&logoColor=white"/>
-<br><br>
-</td>
+<td><img src="https://img.shields.io/badge/🚗%20CarDex-0077B5?style=flat-square&logoColor=white"/></td>
+<td>Full-stack car trading platform with CI/CD, cloud deployment, and infrastructure as code</td>
+<td><code>ASP.NET Core</code> <code>React</code> <code>PostgreSQL</code> <code>Docker</code> <code>Azure</code> <code>Terraform</code></td>
+<td><a href="https://app-cardex.azurewebsites.net">🌐 Live</a></td>
 </tr>
-
 <tr>
-<td width="50%" valign="top">
-<img src="https://capsule-render.vercel.app/api?type=rounded&color=0:0d1117,100:db2777&height=44&text=✅%20HCI%20To-Do%20App&fontSize=18&fontColor=ffffff&animation=fadeIn&fontAlignY=55" width="100%"/>
-<br><br>
-Accessible, user-centered task management interface.
-<br><br>
-<img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white"/>
-<img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white"/>
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black"/>
-<br><br>
-<a href="https://ivy-ding.github.io/todo-app/"><img src="https://img.shields.io/badge/🌐%20Live%20Demo-db2777?style=for-the-badge&logoColor=white"/></a>
-<br><br>
-</td>
-<td width="50%" valign="top">
-</td>
+<td><img src="https://img.shields.io/badge/📱%20UStep-16a34a?style=flat-square&logoColor=white"/></td>
+<td>Android grade analytics app with local database and automated testing</td>
+<td><code>Java</code> <code>Android Studio</code> <code>HSQLDB</code> <code>Python</code> <code>JUnit</code></td>
+<td><a href="https://github.com/subhashyadavon">📦 APK</a></td>
 </tr>
-
+<tr>
+<td><img src="https://img.shields.io/badge/🎙️%20Voice%20Q%26A%20Chatbot-7c3aed?style=flat-square&logoColor=white"/></td>
+<td>RAG-powered voice chatbot with multi-agent orchestration and vector search</td>
+<td><code>LangChain</code> <code>FastAPI</code> <code>Pinecone</code> <code>LangGraph</code></td>
+<td>—</td>
+</tr>
+<tr>
+<td><img src="https://img.shields.io/badge/🎬%20IMDB%20Sentiment-f59e0b?style=flat-square&logoColor=white"/></td>
+<td>ML pipeline for movie review classification using NLP techniques</td>
+<td><code>Python</code> <code>scikit-learn</code> <code>TF-IDF</code></td>
+<td>—</td>
+</tr>
+<tr>
+<td><img src="https://img.shields.io/badge/✅%20HCI%20To--Do%20App-db2777?style=flat-square&logoColor=white"/></td>
+<td>Accessible, user-centered task management interface</td>
+<td><code>HTML</code> <code>CSS</code> <code>JavaScript</code></td>
+<td><a href="https://ivy-ding.github.io/todo-app/">🌐 Live</a></td>
+</tr>
+</tbody>
 </table>
 
 ---
