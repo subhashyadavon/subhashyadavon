@@ -124,19 +124,89 @@ I'm a **Computer Science student** at the **University of Manitoba** with a Mino
 
 ## 🛠️ Featured Projects
 
-| Project | Description | Stack | Links |
-|---------|-------------|-------|-------|
-| **CarDex** | Full-stack car trading platform with CI/CD, cloud deployment, and infrastructure as code | ASP.NET Core • React • PostgreSQL • Docker • Azure • Terraform | [🌐 Live](https://app-cardex.azurewebsites.net) |
-| **UStep** | Android grade analytics app with local database and automated testing | Java • Android Studio • HSQLDB • Python • JUnit | [📦 APK](https://github.com/subhashyadavon) |
-| **Voice Q&A Chatbot** | RAG-powered voice chatbot with multi-agent orchestration and vector search | LangChain • FastAPI • Pinecone • LangGraph | — |
-| **IMDB Sentiment Analysis** | ML pipeline for movie review classification using NLP techniques | Python • scikit-learn • TF-IDF | — |
-| **HCI To-Do App** | Accessible, user-centered task management interface | HTML • CSS • JavaScript | [🌐 Live](https://ivy-ding.github.io/todo-app/) |
+<table width="100%" border="0" cellspacing="6" cellpadding="0">
+
+<tr>
+<td width="50%" valign="top">
+<img src="https://capsule-render.vercel.app/api?type=rounded&color=0:0d1117,100:0077B5&height=44&text=🚗%20CarDex&fontSize=18&fontColor=ffffff&animation=fadeIn&fontAlignY=55" width="100%"/>
+<br><br>
+Full-stack car trading platform with CI/CD, cloud deployment, and infrastructure as code.
+<br><br>
+<img src="https://img.shields.io/badge/ASP.NET%20Core-512BD4?style=flat-square&logo=dot-net&logoColor=white"/>
+<img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black"/>
+<img src="https://img.shields.io/badge/PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white"/>
+<img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white"/>
+<img src="https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoft-azure&logoColor=white"/>
+<img src="https://img.shields.io/badge/Terraform-623CE4?style=flat-square&logo=terraform&logoColor=white"/>
+<br><br>
+<a href="https://app-cardex.azurewebsites.net"><img src="https://img.shields.io/badge/🌐%20Live%20Demo-00BFFF?style=for-the-badge&logoColor=white"/></a>
+<br><br>
+</td>
+<td width="50%" valign="top">
+<img src="https://capsule-render.vercel.app/api?type=rounded&color=0:0d1117,100:16a34a&height=44&text=📱%20UStep&fontSize=18&fontColor=ffffff&animation=fadeIn&fontAlignY=55" width="100%"/>
+<br><br>
+Android grade analytics app with local database and automated testing.
+<br><br>
+<img src="https://img.shields.io/badge/Java-007396?style=flat-square&logoColor=white"/>
+<img src="https://img.shields.io/badge/Android%20Studio-3DDC84?style=flat-square&logo=android-studio&logoColor=white"/>
+<img src="https://img.shields.io/badge/HSQLDB-336791?style=flat-square&logoColor=white"/>
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
+<img src="https://img.shields.io/badge/JUnit-25A162?style=flat-square&logoColor=white"/>
+<br><br>
+<a href="https://github.com/subhashyadavon"><img src="https://img.shields.io/badge/📦%20APK-16a34a?style=for-the-badge&logoColor=white"/></a>
+<br><br>
+</td>
+</tr>
+
+<tr>
+<td width="50%" valign="top">
+<img src="https://capsule-render.vercel.app/api?type=rounded&color=0:0d1117,100:7c3aed&height=44&text=🎙️%20Voice%20Q%26A%20Chatbot&fontSize=18&fontColor=ffffff&animation=fadeIn&fontAlignY=55" width="100%"/>
+<br><br>
+RAG-powered voice chatbot with multi-agent orchestration and vector search.
+<br><br>
+<img src="https://img.shields.io/badge/LangChain-dc2626?style=flat-square&logoColor=white"/>
+<img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white"/>
+<img src="https://img.shields.io/badge/Pinecone-0ea5e9?style=flat-square&logoColor=white"/>
+<img src="https://img.shields.io/badge/LangGraph-ea580c?style=flat-square&logoColor=white"/>
+<br><br>
+</td>
+<td width="50%" valign="top">
+<img src="https://capsule-render.vercel.app/api?type=rounded&color=0:0d1117,100:f59e0b&height=44&text=🎬%20IMDB%20Sentiment%20Analysis&fontSize=16&fontColor=ffffff&animation=fadeIn&fontAlignY=55" width="100%"/>
+<br><br>
+ML pipeline for movie review classification using NLP techniques.
+<br><br>
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
+<img src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white"/>
+<img src="https://img.shields.io/badge/TF--IDF-f59e0b?style=flat-square&logoColor=white"/>
+<br><br>
+</td>
+</tr>
+
+<tr>
+<td width="50%" valign="top">
+<img src="https://capsule-render.vercel.app/api?type=rounded&color=0:0d1117,100:db2777&height=44&text=✅%20HCI%20To-Do%20App&fontSize=18&fontColor=ffffff&animation=fadeIn&fontAlignY=55" width="100%"/>
+<br><br>
+Accessible, user-centered task management interface.
+<br><br>
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white"/>
+<img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white"/>
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black"/>
+<br><br>
+<a href="https://ivy-ding.github.io/todo-app/"><img src="https://img.shields.io/badge/🌐%20Live%20Demo-db2777?style=for-the-badge&logoColor=white"/></a>
+<br><br>
+</td>
+<td width="50%" valign="top">
+</td>
+</tr>
+
+</table>
 
 ---
 
 ## 💻 Tech Stack
 
 **Frontend**
+
 ![React](https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=black)
 ![Next.js](https://img.shields.io/badge/Next.js-000000?logo=next.js&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
@@ -145,6 +215,7 @@ I'm a **Computer Science student** at the **University of Manitoba** with a Mino
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)
 
 **Backend**
+
 ![C#](https://img.shields.io/badge/C%23-239120?logo=c-sharp&logoColor=white)
 ![.NET Core](https://img.shields.io/badge/.NET_Core-512BD4?logo=dot-net&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
@@ -155,10 +226,12 @@ I'm a **Computer Science student** at the **University of Manitoba** with a Mino
 ![C++](https://img.shields.io/badge/C++-00599C?logo=c%2B%2B&logoColor=white)
 
 **Databases**
+
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?logo=postgresql&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?logo=mongodb&logoColor=white)
 
 **AI / ML**
+
 ![LangChain](https://img.shields.io/badge/LangChain-AI_Workflows-red)
 ![LangGraph](https://img.shields.io/badge/LangGraph-AI_Workflows-9cf)
 ![LLMs](https://img.shields.io/badge/LLMs-Large_Language_Models-blueviolet)
@@ -168,6 +241,7 @@ I'm a **Computer Science student** at the **University of Manitoba** with a Mino
 ![NLP](https://img.shields.io/badge/NLP-Natural_Language_Processing-yellow)
 
 **Infrastructure / Tools**
+
 ![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
 ![Azure](https://img.shields.io/badge/Azure-0078D4?logo=microsoft-azure&logoColor=white)
 ![AWS](https://img.shields.io/badge/AWS-232F3E?logo=amazon-aws&logoColor=white)
@@ -215,5 +289,5 @@ I'm always open to collaborating on interesting projects, especially those invol
 </p>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0077B5,100:00BFFF&height=100&section=footer"/>
 </p>
