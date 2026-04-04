@@ -153,6 +153,12 @@ I'm a **Computer Science student** at the **University of Manitoba** with a Mino
 <td>—</td>
 </tr>
 <tr>
+<td><img src="https://img.shields.io/badge/🔄%20Automated%20ETL%20Pipeline-0ea5e9?style=flat-square&logoColor=white"/></td>
+<td>Fault-tolerant ETL pipeline with dual-storage data ecosystem and automated data quality checks</td>
+<td><code>Apache Airflow</code> <code>Python</code> <code>PostgreSQL</code> <code>AWS S3</code></td>
+<td><a href="https://github.com/subhashyadavon/airflow-project">📂 GitHub</a></td>
+</tr>
+<tr>
 <td><img src="https://img.shields.io/badge/🎬%20IMDB%20Sentiment-f59e0b?style=flat-square&logoColor=white"/></td>
 <td>ML pipeline for movie review classification using NLP techniques</td>
 <td><code>Python</code> <code>scikit-learn</code> <code>TF-IDF</code></td>
@@ -162,7 +168,7 @@ I'm a **Computer Science student** at the **University of Manitoba** with a Mino
 <td><img src="https://img.shields.io/badge/✅%20HCI%20To--Do%20App-db2777?style=flat-square&logoColor=white"/></td>
 <td>Accessible, user-centered task management interface</td>
 <td><code>HTML</code> <code>CSS</code> <code>JavaScript</code></td>
-<td><a href="https://ivy-ding.github.io/todo-app/">🌐 Live</a></td>
+<td><a href="https://subhashyadavon.github.io/todo-app/">🌐 Live</a></td>
 </tr>
 </tbody>
 </table>
