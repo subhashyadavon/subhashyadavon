@@ -150,7 +150,7 @@ I'm a **Computer Science student** at the **University of Manitoba** with a Mino
 <td><img src="https://img.shields.io/badge/🎙️%20Voice%20Q%26A%20Chatbot-7c3aed?style=flat-square&logoColor=white"/></td>
 <td>RAG-powered voice chatbot with multi-agent orchestration and vector search</td>
 <td><code>LangChain</code> <code>FastAPI</code> <code>Pinecone</code> <code>LangGraph</code></td>
-<td>—</td>
+<td><a href="https://github.com/subhashyadavon/voice-driven-qna-bot">📂 GitHub</a></td>
 </tr>
 <tr>
 <td><img src="https://img.shields.io/badge/🔄%20Automated%20ETL%20Pipeline-0ea5e9?style=flat-square&logoColor=white"/></td>
@@ -162,7 +162,7 @@ I'm a **Computer Science student** at the **University of Manitoba** with a Mino
 <td><img src="https://img.shields.io/badge/🎬%20IMDB%20Sentiment-f59e0b?style=flat-square&logoColor=white"/></td>
 <td>ML pipeline for movie review classification using NLP techniques</td>
 <td><code>Python</code> <code>scikit-learn</code> <code>TF-IDF</code></td>
-<td>—</td>
+<td><a href="https://github.com/subhashyadavon/imdb_nlp">📂 GitHub</a></td>
 </tr>
 <tr>
 <td><img src="https://img.shields.io/badge/✅%20HCI%20To--Do%20App-db2777?style=flat-square&logoColor=white"/></td>
@@ -247,6 +247,10 @@ I'm always open to collaborating on interesting projects, especially those invol
 - 🎙️ Voice AI agents and RAG pipelines
 - ☁️ Cloud-native and distributed systems
 - 🚀 Full-stack products with real-world impact
+- 📊 Data engineering, ETL pipelines, and analytics
+- 🧠 AI/ML research and applied machine learning
+- 🗄️ Database design, optimization, and data modeling
+- 🔬 Open source contributions across any domain
 
 <p align="center">
   <a href="https://www.linkedin.com/in/subhashyadavon/">
