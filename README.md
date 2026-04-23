@@ -66,8 +66,7 @@ Right now, I'm especially interested in:
 
 - Projects where I can learn by building  
 - AI/ML or data-focused applications  
-- Beginner-friendly open-source contributions  
-
+- Scalable Systems
 ---
 
 <p align="center"><i>"Still learning. Still building."</i></p>
