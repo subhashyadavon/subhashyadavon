@@ -1,18 +1,18 @@
 <h1 align="center">Hi, I'm Subhash Yadav</h1>
-<h3 align="center">A Problem Solver</h3>
+<h3 align="center">CS Student · Problem Solver · Building & Learning Every Day</h3>
 
 <p align="center">
   <a href="https://subhash-yadav.vercel.app/">
-    <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"/>
+    <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white"/>
   </a>
   <a href="https://linkedin.com/in/subhashyadavon">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
   </a>
   <a href="https://github.com/subhashyadavon">
-    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"/>
   </a>
   <a href="mailto:subhashyadavon@gmail.com">
-    <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
+    <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
   </a>
 </p>
 
@@ -20,49 +20,57 @@
 
 ## About Me
 
-Fourth-year Computer Science student passionate about building full-scale systems and AI/ML solutions. Experienced in open-source contributions and developing impactful projects through strong problem-solving, coding, and collaboration skills. Currently solving a real-world false alarm reduction problem for BIL Security Service Canada Ltd as part of an industry project, while actively developing full-stack and AI-powered applications.
+I'm a fourth-year Computer Science student at the University of Manitoba (minor in Mathematics), currently focusing on building practical software systems and gaining hands-on experience across different areas of development.
 
-* **Ask Me About:** LLMs, RAG, AI Agents, ASP.NET Core, React, System Design
-* **Based in:** Winnipeg, Manitoba, Canada
-* **Education:** Computer Science @ University of Manitoba (Minor in Mathematics) — Expected April 2027
+I enjoy working on problems that require both **thinking and building** — whether that's designing backend systems, building data pipelines, or experimenting with AI applications. I’ve developed this by consistently **building real projects, tackling complex problems, and turning ideas into working systems**.
 
----
+Right now, I'm especially interested in:
+- AI/ML systems and real-world applications  
+- Data engineering and pipelines  
+- Backend and distributed systems  
 
-## Technical Stack
-
-* **AI & Machine Learning:** Python, PyTorch, TensorFlow, LLMs, RAG, AI Agents, LangChain, LangGraph, Pinecone, Vector Databases, NLP
-* **Full-Stack Development:** React, TypeScript, Next.js, C#, .NET Core, Java, Node.js, HTML5, CSS3, JavaScript, C, C++
-* **Databases:** PostgreSQL, MongoDB
-* **Distributed Systems & Cloud:** Docker, Kubernetes, Terraform, Apache Kafka, Azure, AWS, GCP, Microservices, CI/CD, Linux, Git
+- 📍 Winnipeg, Manitoba, Canada  
+- 🎓 BSc Computer Science, Expected April 2027  
 
 ---
 
-## Featured Projects
+## Tech I Work With
+
+**Languages:** Python, Java, JavaScript, C, SQL  
+**Currently Learning:** TypeScript, C#  
+
+**Web & Backend:** React, FastAPI, .NET Core, HTML/CSS  
+**Familiar With:** Spring Boot, Node.js 
+
+**AI / ML:** LangChain, NLP, scikit-learn, Vector Databases  
+**Exploring:** PyTorch, LangGraph  
+
+**Data & Infra:** PostgreSQL, Docker, Git, Linux, AWS (S3/EC2), Azure (App Service/Blob Storage), Apache Airflow  
+
+---
+
+## Projects
 
 | Project | Description | Stack | Links |
 | :--- | :--- | :--- | :--- |
-| **CarDex** | Full-stack car trading platform with CI/CD, cloud deployment, and infrastructure as code | ASP.NET Core, React, PostgreSQL, Docker, Azure, Terraform | [Live](https://app-cardex.azurewebsites.net) |
-| **UStep** | Android grade analytics app with local database and automated testing | Java, Android Studio, HSQLDB, Python, JUnit | [APK](https://github.com/subhashyadavon) |
-| **Voice Q&A Chatbot** | RAG-powered voice chatbot with multi-agent orchestration and vector search | LangChain, FastAPI, Pinecone, LangGraph | [GitHub](https://github.com/subhashyadavon/voice-driven-qna-bot) |
-| **Automated ETL Pipeline** | Fault-tolerant ETL pipeline with dual-storage data ecosystem and automated data quality checks | Apache Airflow, Python, PostgreSQL, AWS S3 | [GitHub](https://github.com/subhashyadavon/airflow-project) |
-| **IMDB Sentiment** | ML pipeline for movie review classification using NLP techniques | Python, scikit-learn, TF-IDF | [GitHub](https://github.com/subhashyadavon/imdb_nlp) |
-| **HCI To-Do App** | Accessible, user-centered task management interface | HTML, CSS, JavaScript | [Live](https://subhashyadavon.github.io/todo-app/) |
+| **CarDex** | Car trading platform built as a full-stack system with cloud deployment and infrastructure setup | C#, React, PostgreSQL, Docker, Terraform | [Live](https://app-cardex.azurewebsites.net) |
+| **UStep** | Android app for tracking grades and planning courses | Java, Android Studio, HSQLDB, JUnit | [GitHub](https://github.com/subhashyadavon/ustep) |
+| **Voice Q&A Bot** | Voice-enabled chatbot using retrieval-augmented generation (RAG) | Python, LangChain, FastAPI | [GitHub](https://github.com/subhashyadavon/voice-driven-qna-bot) |
+| **Tech Market Pipeline** | ETL pipeline that processes job data into insights on salary and tech stacks | Apache Airflow, Python, PostgreSQL, AWS S3 | [GitHub](https://github.com/subhashyadavon/airflow-project) |
+| **IMDB Sentiment** | NLP model for classifying movie reviews using TF-IDF and Logistic Regression | Python, scikit-learn | [GitHub](https://github.com/subhashyadavon/imdb_nlp) |
+| **HCI To-Do App** | Simple task manager focused on usability and clean design | HTML, CSS, JavaScript | [Live](https://subhashyadavon.github.io/todo-app/) |
 
 ---
 
-## Collaboration
+## Looking to Collaborate On
 
-
-* **Looking to Collaborate** on open-source projects in GenAI, distributed systems, and full-stack development. I am particularly interested in:
-  * LangChain & LangGraph AI applications
-  * Voice AI agents and RAG pipelines
-  * Data engineering, ETL pipelines, and analytics
+- Projects where I can learn by building  
+- AI/ML or data-focused applications  
+- Beginner-friendly open-source contributions  
 
 ---
 
-<p align="center">
-  <i>"Open to collaborations • Building the future with code"</i>
-</p>
+<p align="center"><i>"Still learning. Still building."</i></p>
 
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0077B5,100:00BFFF&height=100&section=footer"/>
