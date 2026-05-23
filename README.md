@@ -22,7 +22,7 @@
 
 I'm a fourth-year Computer Science student at the University of Manitoba (minor in Mathematics), currently focusing on building practical software systems and gaining hands-on experience across different areas of development.
 
-I enjoy working on problems that require both **thinking and building** — whether that's designing backend systems, building data pipelines, or experimenting with AI applications. I’ve developed this by consistently **building real projects, tackling complex problems, and turning ideas into working systems**.
+I enjoy working on problems that require both thinking and building whether that's designing backend systems, building data pipelines, or experimenting with AI applications. I’ve developed this by consistently building real projects, tackling complex problems, and turning ideas into working systems.
 
 Right now, I'm especially interested in:
 - AI/ML systems and real-world applications  
