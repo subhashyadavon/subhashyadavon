@@ -39,7 +39,7 @@ Right now, I'm especially interested in:
 **Languages:** Python, Java, JavaScript, C, SQL  
 **Currently Learning:** TypeScript, C#  
 
-**Web & Backend:** React, FastAPI, .NET Core, HTML/CSS  
+**Web & Backend:** React, Angular, FastAPI, .NET Core, HTML/CSS  
 **Familiar With:** Spring Boot, Node.js 
 
 **AI / ML:** LangChain, NLP, scikit-learn, Vector Databases  
