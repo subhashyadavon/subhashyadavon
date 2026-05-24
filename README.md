@@ -40,7 +40,7 @@ Right now, I'm especially interested in:
 **Currently Learning:** TypeScript, C#  
 
 **Web & Backend:** React, Angular, FastAPI, .NET Core, HTML/CSS  
-**Familiar With:** Spring Boot, Node.js 
+**Familiar With:** Node.js 
 
 **AI / ML:** LangChain, NLP, scikit-learn, Vector Databases  
 **Exploring:** PyTorch, LangGraph  
