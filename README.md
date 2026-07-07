@@ -138,9 +138,8 @@ No Activity Tracked This Week
 
 **:zap: Recent Activity:**
 
-<!--START_SECTION:activity-->
-1. 🎉 Coming soon — this section updates automatically
-<!--END_SECTION:activity-->
+<!--RECENT_ACTIVITY:start-->
+<!--RECENT_ACTIVITY:end-->
 
 <p align="center"><i>"Still learning. Still building."</i></p>
 
