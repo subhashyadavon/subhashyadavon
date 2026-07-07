@@ -1,6 +1,8 @@
 name: wakatime-stats
 
 on:
+  push:
+    branches: [main]
   schedule:
     # Runs every 6 hours
     - cron: "0 */6 * * *"
@@ -10,6 +12,9 @@ jobs:
   update-readme:
     name: Update README with WakaTime stats
     runs-on: ubuntu-latest
+    # Skip runs triggered by this workflow's own commit (it pushes with a
+    # personal GH_TOKEN, which would otherwise retrigger push indefinitely).
+    if: ${{ !contains(github.event.head_commit.message, 'Updated with Dev Metrics') }}
     steps:
       - name: WakaTime stats
         uses: anmol098/waka-readme-stats@master

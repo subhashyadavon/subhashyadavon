@@ -1,6 +1,8 @@
 name: waka-simple
 
 on:
+  push:
+    branches: [main]
   schedule:
     # Runs once a day at 02:00 UTC
     - cron: "0 2 * * *"

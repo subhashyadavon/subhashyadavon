@@ -23,7 +23,6 @@
 
 - 🔭 Currently I'm working on **Angular front-end development at my internship and building practical software systems end to end 🖥️**
 - 🌱 I have the potential to learn anything & everything, but right now I am trying to master **TypeScript, C#/.NET, and advanced backend patterns 🧑‍🎓**
-- 👯 I can collaborate on **AI/ML applications, data pipelines, and scalable backend systems 🌍**
 - 🎯 2026 Goal: **Ship real features in production and land an impactful SWE role**
 - 🤝 I'm looking for help with **mastering distributed systems concepts and tricky DSA patterns for interviews 🧩**
 - 🎓 Fourth-year BSc Computer Science (Minor in Mathematics) @ **University of Manitoba** — Expected April 2027
