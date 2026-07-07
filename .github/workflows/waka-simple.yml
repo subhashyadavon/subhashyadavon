@@ -1,0 +1,22 @@
+name: waka-simple
+
+on:
+  schedule:
+    # Runs once a day at 02:00 UTC
+    - cron: "0 2 * * *"
+  workflow_dispatch:
+
+jobs:
+  update-readme:
+    name: Update the waka-simple section
+    runs-on: ubuntu-latest
+    steps:
+      - uses: athul/waka-readme@master
+        with:
+          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
+          SECTION_NAME: waka-simple      # matches <!--START_SECTION:waka-simple-->
+          SHOW_TITLE: true               # "From: ... To: ..." line
+          SHOW_TOTAL: true               # "Total Time: ..." line
+          BLOCKS: "⣀⣄⣤⣦⣶⣷⣿"              # braille-style bars like the example
+          TIME_RANGE: last_6_months
+          LANG_COUNT: 6
