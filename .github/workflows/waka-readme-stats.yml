@@ -8,6 +8,9 @@ on:
     - cron: "0 */6 * * *"
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   update-readme:
     name: Update README with WakaTime stats
@@ -16,6 +19,9 @@ jobs:
     # personal GH_TOKEN, which would otherwise retrigger push indefinitely).
     if: ${{ !contains(github.event.head_commit.message, 'Updated with Dev Metrics') }}
     steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GH_TOKEN }}
       - name: WakaTime stats
         uses: anmol098/waka-readme-stats@master
         with:
