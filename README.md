@@ -1,5 +1,11 @@
-<h1 align="center">Hi, I'm Subhash Yadav</h1>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/74038190/225813708-98b745f2-7d22-48cf-9150-083f1b00d6c9.gif" width="500"/>
+</p>
+
+<h1 align="center">Hey 👋, I'm Subhash</h1>
 <h3 align="center">CS Student · Problem Solver · Building & Learning Every Day</h3>
+
+<p align="center"> <img src="https://komarev.com/ghpvc/?username=subhashyadavon&label=profile%20views&color=0077b5&style=flat" alt="subhashyadavon" /> </p>
 
 <p align="center">
   <a href="https://subhash-yadav.vercel.app/">
@@ -8,48 +14,89 @@
   <a href="https://linkedin.com/in/subhashyadavon">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
   </a>
-  <a href="https://github.com/subhashyadavon">
-    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"/>
-  </a>
   <a href="mailto:subhashyadavon@gmail.com">
     <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
   </a>
 </p>
 
----
+[![activity graph](https://github-readme-activity-graph.vercel.app/graph?username=subhashyadavon&theme=github-compact&custom_title=Subhash's%20Activity%20Graph&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
-## About Me
+- 🔭 Currently I'm working on **Angular front-end development at my internship and building practical software systems end to end 🖥️**
+- 🌱 I have the potential to learn anything & everything, but right now I am trying to master **TypeScript, C#/.NET, and advanced backend patterns 🧑‍🎓**
+- 👯 I can collaborate on **AI/ML applications, data pipelines, and scalable backend systems 🌍**
+- 🎯 2026 Goal: **Ship real features in production and land an impactful SWE role**
+- 🤝 I'm looking for help with **mastering distributed systems concepts and tricky DSA patterns for interviews 🧩**
+- 🎓 Fourth-year BSc Computer Science (Minor in Mathematics) @ **University of Manitoba** — Expected April 2027
+- 📍 Based in **Winnipeg, Manitoba, Canada** 🍁
+- 💬 Ask me about **Python, Java, RAG/LangChain, Data Pipelines, and Angular 🧠**
+- 📫 Wanna work together? Shoot me an [📧](mailto:subhashyadavon@gmail.com)
+- 📄 Know about my experiences [📝](https://subhash-yadav.vercel.app/)
 
-I'm a fourth-year Computer Science student at the University of Manitoba (minor in Mathematics), currently focusing on building practical software systems and gaining hands-on experience across different areas of development.
+<h3 align="left">Stacks I have worked with</h3>
 
-I enjoy working on problems that require both thinking and building whether that's designing backend systems, building data pipelines, or experimenting with AI applications. I’ve developed this by consistently building real projects, tackling complex problems, and turning ideas into working systems.
+#### Languages
+<p>
+  <img alt="Python" src="https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white" />
+  <img alt="Java" src="https://img.shields.io/badge/-Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white" />
+  <img alt="JavaScript" src="https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />
+  <img alt="TypeScript" src="https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
+  <img alt="C#" src="https://img.shields.io/badge/-C%23-512BD4?style=flat-square&logo=dotnet&logoColor=white" />
+  <img alt="C" src="https://img.shields.io/badge/-C-00599C?style=flat-square&logo=c&logoColor=white" />
+  <img alt="SQL" src="https://img.shields.io/badge/-SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white" />
+  <img alt="HTML" src="https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" />
+  <img alt="CSS" src="https://img.shields.io/badge/-CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" />
+</p>
 
-Right now, I'm especially interested in:
-- AI/ML systems and real-world applications  
-- Data engineering and pipelines  
-- Backend and distributed systems  
+#### Frameworks & Libraries
+<p>
+  <img alt="React" src="https://img.shields.io/badge/-React-45b8d8?style=flat-square&logo=react&logoColor=white" />
+  <img alt="Angular" src="https://img.shields.io/badge/-Angular-DD0031?style=flat-square&logo=angular&logoColor=white" />
+  <img alt=".NET Core" src="https://img.shields.io/badge/-.NET_Core-512BD4?style=flat-square&logo=dotnet&logoColor=white" />
+  <img alt="FastAPI" src="https://img.shields.io/badge/-FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" />
+  <img alt="Node.js" src="https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=node.js&logoColor=white" />
+</p>
 
-- 📍 Winnipeg, Manitoba, Canada  
-- 🎓 BSc Computer Science, Expected April 2027  
+#### AI / ML
+<p>
+  <img alt="LangChain" src="https://img.shields.io/badge/-LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white" />
+  <img alt="LangGraph" src="https://img.shields.io/badge/-LangGraph-1C3C3C?style=flat-square&logo=langchain&logoColor=white" />
+  <img alt="Scikit-learn" src="https://img.shields.io/badge/-Scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white" />
+  <img alt="PyTorch" src="https://img.shields.io/badge/-PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" />
+  <img alt="Pandas" src="https://img.shields.io/badge/-Pandas-150458?style=flat-square&logo=pandas&logoColor=white" />
+  <img alt="NumPy" src="https://img.shields.io/badge/-NumPy-013243?style=flat-square&logo=numpy&logoColor=white" />
+  <img alt="Pinecone" src="https://img.shields.io/badge/-Pinecone-000000?style=flat-square&logo=databricks&logoColor=white" />
+</p>
 
----
+#### Databases & Data Tools
+<p>
+  <img alt="PostgreSQL" src="https://img.shields.io/badge/-PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white" />
+  <img alt="Apache Airflow" src="https://img.shields.io/badge/-Apache_Airflow-017CEE?style=flat-square&logo=apacheairflow&logoColor=white" />
+  <img alt="HSQLDB" src="https://img.shields.io/badge/-HSQLDB-4479A1?style=flat-square&logo=databricks&logoColor=white" />
+</p>
 
-## Tech I Work With
+#### Cloud & DevOps
+<p>
+  <img alt="AWS" src="https://img.shields.io/badge/-AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white" />
+  <img alt="Azure" src="https://img.shields.io/badge/-Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white" />
+  <img alt="Docker" src="https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
+  <img alt="Terraform" src="https://img.shields.io/badge/-Terraform-844FBA?style=flat-square&logo=terraform&logoColor=white" />
+  <img alt="GitHub Actions" src="https://img.shields.io/badge/-GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" />
+  <img alt="Linux" src="https://img.shields.io/badge/-Linux-FCC624?style=flat-square&logo=linux&logoColor=black" />
+</p>
 
-**Languages:** Python, Java, JavaScript, C, SQL  
-**Currently Learning:** TypeScript, C#  
+#### Developer Tools & Testing
+<p>
+  <img alt="Git" src="https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white" />
+  <img alt="GitHub" src="https://img.shields.io/badge/-GitHub-181717?style=flat-square&logo=github&logoColor=white" />
+  <img alt="JUnit" src="https://img.shields.io/badge/-JUnit-25A162?style=flat-square&logo=junit5&logoColor=white" />
+  <img alt="Pytest" src="https://img.shields.io/badge/-Pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white" />
+  <img alt="xUnit" src="https://img.shields.io/badge/-xUnit-512BD4?style=flat-square&logo=dotnet&logoColor=white" />
+  <img alt="Espresso" src="https://img.shields.io/badge/-Espresso-3DDC84?style=flat-square&logo=android&logoColor=white" />
+  <img alt="Postman" src="https://img.shields.io/badge/-Postman-FF6C37?style=flat-square&logo=postman&logoColor=white" />
+  <img alt="Android Studio" src="https://img.shields.io/badge/-Android_Studio-3DDC84?style=flat-square&logo=androidstudio&logoColor=white" />
+</p>
 
-**Web & Backend:** React, Angular, FastAPI, .NET Core, HTML/CSS  
-**Familiar With:** Node.js 
-
-**AI / ML:** LangChain, NLP, scikit-learn, Vector Databases  
-**Exploring:** PyTorch, LangGraph  
-
-**Data & Infra:** PostgreSQL, Docker, Git, Linux, AWS (S3/EC2), Azure (App Service/Blob Storage), Apache Airflow  
-
----
-
-## Projects
+## 🚀 Projects
 
 | Project | Description | Stack | Links |
 | :--- | :--- | :--- | :--- |
@@ -60,14 +107,71 @@ Right now, I'm especially interested in:
 | **IMDB Sentiment** | NLP model for classifying movie reviews using TF-IDF and Logistic Regression | Python, scikit-learn | [GitHub](https://github.com/subhashyadavon/imdb_nlp) |
 | **HCI To-Do App** | Simple task manager focused on usability and clean design | HTML, CSS, JavaScript | [Live](https://subhashyadavon.github.io/todo-app/) |
 
----
+## 📊 GitHub Stats
 
-## Looking to Collaborate On
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=subhashyadavon&theme=github-dark-blue&hide_border=true" height="165"/>
+</p>
 
-- Projects where I can learn by building  
-- AI/ML or data-focused applications  
-- Scalable Systems
----
+<!--START_SECTION:waka-->
+![Code Time](http://img.shields.io/badge/Code%20Time-0%20hrs%200%20mins-blue?style=flat)
+
+![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-0%20lines%20of%20code-blue?style=flat)
+
+**🐱 My GitHub Data** 
+
+> 📦 ? Used in GitHub's Storage 
+ > 
+> 🏆 0 Contributions in the Year 2026
+ > 
+> 🚫 Not Opted to Hire
+ > 
+> 📜 0 Public Repositories 
+ > 
+> 🔑 0 Private Repositories 
+ > 
+**I'm an Early 🐤** 
+
+```text
+🌞 Morning                0 commits           ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
+🌆 Daytime                0 commits           ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
+🌃 Evening                0 commits           ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
+🌙 Night                  0 commits           ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
+```
+
+
+📊 **This Week I Spent My Time On** 
+
+```text
+🕑︎ Time Zone: America/Winnipeg
+
+💬 Programming Languages: 
+No Activity Tracked This Week
+
+🐱‍💻 Projects: 
+No Activity Tracked This Week
+```
+
+ Last Updated on 07/07/2026 00:00:00 UTC
+<!--END_SECTION:waka-->
+
+<!--START_SECTION:waka-simple-->
+
+```text
+From: 07 July 2026 - To: 07 July 2026
+
+Total Time: 0 hrs 0 mins
+
+No Activity Tracked This Week
+```
+
+<!--END_SECTION:waka-simple-->
+
+**:zap: Recent Activity:**
+
+<!--START_SECTION:activity-->
+1. 🎉 Coming soon — this section updates automatically
+<!--END_SECTION:activity-->
 
 <p align="center"><i>"Still learning. Still building."</i></p>
 
