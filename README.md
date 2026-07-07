@@ -113,79 +113,15 @@
 </p>
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-0%20secs-blue?style=flat)
 
-![Profile Views](http://img.shields.io/badge/Profile%20Views-0-blue?style=flat)
+```txt
+From: 06 January 2026 - To: 07 July 2026
 
-**🐱 My GitHub Data** 
+Total Time: 0 secs
 
-> 📦 647.2 kB Used in GitHub's Storage 
- > 
-> 🏆 377 Contributions in the Year 2026
- > 
-> 💼 Opted to Hire
- > 
-> 📜 20 Public Repositories 
- > 
-> 🔑 10 Private Repositories 
- > 
-**I'm an Early 🐤** 
-
-```text
-🌞 Morning                880 commits         ████░░░░░░░░░░░░░░░░░░░░░   15.99 % 
-🌆 Daytime                2422 commits        ███████████░░░░░░░░░░░░░░   44.00 % 
-🌃 Evening                1354 commits        ██████░░░░░░░░░░░░░░░░░░░   24.60 % 
-🌙 Night                  848 commits         ████░░░░░░░░░░░░░░░░░░░░░   15.41 % 
-```
-📅 **I'm Most Productive on Thursday** 
-
-```text
-Monday                   679 commits         ███░░░░░░░░░░░░░░░░░░░░░░   12.34 % 
-Tuesday                  807 commits         ████░░░░░░░░░░░░░░░░░░░░░   14.66 % 
-Wednesday                1271 commits        ██████░░░░░░░░░░░░░░░░░░░   23.09 % 
-Thursday                 1501 commits        ███████░░░░░░░░░░░░░░░░░░   27.27 % 
-Friday                   499 commits         ██░░░░░░░░░░░░░░░░░░░░░░░   09.07 % 
-Saturday                 444 commits         ██░░░░░░░░░░░░░░░░░░░░░░░   08.07 % 
-Sunday                   303 commits         █░░░░░░░░░░░░░░░░░░░░░░░░   05.51 % 
+No activity tracked
 ```
 
-
-📊 **This Week I Spent My Time On** 
-
-```text
-🕑︎ Time Zone: America/Winnipeg
-
-💬 Programming Languages: 
-No Activity Tracked This Week
-
-🔥 Editors: 
-No Activity Tracked This Week
-
-🐱‍💻 Projects: 
-No Activity Tracked This Week
-
-💻 Operating System: 
-No Activity Tracked This Week
-```
-
-**I Mostly Code in Python** 
-
-```text
-Python                   8 repos             █████████░░░░░░░░░░░░░░░░   36.36 % 
-JavaScript               4 repos             █████░░░░░░░░░░░░░░░░░░░░   18.18 % 
-HTML                     2 repos             ██░░░░░░░░░░░░░░░░░░░░░░░   09.09 % 
-C#                       2 repos             ██░░░░░░░░░░░░░░░░░░░░░░░   09.09 % 
-TypeScript               1 repo              █░░░░░░░░░░░░░░░░░░░░░░░░   04.55 % 
-```
-
-
-
-**Timeline**
-
-![Lines of Code chart](https://raw.githubusercontent.com/subhashyadavon/subhashyadavon/main/assets/bar_graph.png)
-
-
- Last Updated on 07/07/2026 19:38:26 UTC
 <!--END_SECTION:waka-->
 
 <!--START_SECTION:waka-simple-->
