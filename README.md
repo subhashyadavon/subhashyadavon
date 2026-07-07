@@ -138,8 +138,9 @@ No Activity Tracked This Week
 
 **:zap: Recent Activity:**
 
-<!--RECENT_ACTIVITY:start-->
-<!--RECENT_ACTIVITY:end-->
+<!--START_SECTION:activity-->
+1. 🎉 No recent issue/PR/release activity yet — check back after your next contribution!
+<!--END_SECTION:activity-->
 
 <p align="center"><i>"Still learning. Still building."</i></p>
 
