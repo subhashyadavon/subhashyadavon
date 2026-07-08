@@ -16,12 +16,13 @@ jobs:
     name: Update the waka-simple section
     runs-on: ubuntu-latest
     steps:
-      - uses: athul/waka-readme@master
+      - uses: guilyx/waka-readme@master
         with:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
           SECTION_NAME: waka-simple      # matches <!--START_SECTION:waka-simple-->
+          TIME_RANGE: all_time
+          SHOW_TIME: true                # per-language time
+          SHOW_MASKED_TIME: true         # per-language bar graphs
           SHOW_TITLE: true               # "From: ... To: ..." line
-          SHOW_TOTAL: true               # "Total Time: ..." line
           BLOCKS: "⣀⣄⣤⣦⣶⣷⣿"              # braille-style bars like the example
-          TIME_RANGE: last_6_months
-          LANG_COUNT: 6
