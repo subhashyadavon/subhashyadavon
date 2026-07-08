@@ -127,11 +127,7 @@ No activity tracked
 <!--START_SECTION:waka-simple-->
 
 ```text
-From: 07 July 2026 - To: 07 July 2026
-
-Total Time: 0 hrs 0 mins
-
-No Activity Tracked This Week
+No activity tracked
 ```
 
 <!--END_SECTION:waka-simple-->
