@@ -16,8 +16,12 @@ jobs:
     name: Update the waka-simple section
     runs-on: ubuntu-latest
     steps:
-      - uses: guilyx/waka-readme@master
-        with:
+      # Retry up to 3 times -- each attempt only runs if the previous failed.
+      - name: waka-simple (attempt 1)
+        id: waka1
+        continue-on-error: true
+        uses: guilyx/waka-readme@master
+        with: &waka-inputs
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
           SECTION_NAME: waka-simple      # matches <!--START_SECTION:waka-simple-->
@@ -26,3 +30,15 @@ jobs:
           SHOW_MASKED_TIME: true         # per-language bar graphs
           SHOW_TITLE: true               # "From: ... To: ..." line
           BLOCKS: "⣀⣄⣤⣦⣶⣷⣿"              # braille-style bars like the example
+
+      - name: waka-simple (attempt 2)
+        id: waka2
+        if: steps.waka1.outcome == 'failure'
+        continue-on-error: true
+        uses: guilyx/waka-readme@master
+        with: *waka-inputs
+
+      - name: waka-simple (attempt 3)
+        if: steps.waka2.outcome == 'failure'
+        uses: guilyx/waka-readme@master
+        with: *waka-inputs
