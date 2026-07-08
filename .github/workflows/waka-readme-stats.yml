@@ -27,17 +27,17 @@ jobs:
         with:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
-        env:
-          # These flags recreate the exact sections in the example README
           SHOW_LINES_OF_CODE: "True"          # "From Hello World I've Written..." badge
           SHOW_TOTAL_CODE_TIME: "True"        # "Code Time" badge
           SHOW_SHORT_INFO: "True"             # 🐱 My GitHub Data block
           SHOW_COMMIT: "True"                 # Morning/Daytime/Evening/Night breakdown
           SHOW_TIMEZONE: "True"               # 🕑 Time Zone line
-          SHOW_LANGUAGE: "True"               # 💬 Programming Languages (this week)
-          SHOW_PROJECTS: "True"               # 🐱‍💻 Projects (this week)
           SHOW_UPDATED_DATE: "True"           # "Last Updated on ..." footer
-          # Sections the example does NOT show
+          # Hidden: this action can't show all-time here (hardcoded to last 7
+          # days), so the weekly breakdown is skipped in favor of the
+          # all-time view already shown in the waka-simple section.
+          SHOW_LANGUAGE: "False"
+          SHOW_PROJECTS: "False"
           SHOW_PROFILE_VIEWS: "False"
           SHOW_EDITORS: "False"
           SHOW_OS: "False"
