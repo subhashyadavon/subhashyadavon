@@ -117,11 +117,13 @@
 <!--START_SECTION:waka-->
 ![Code Time](http://img.shields.io/badge/Code%20Time-0%20secs-blue?style=flat)
 
+![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-33.60%20million%20lines%20of%20code-blue?style=flat)
+
 **🐱 My GitHub Data** 
 
 > 📦 647.3 kB Used in GitHub's Storage 
  > 
-> 🏆 381 Contributions in the Year 2026
+> 🏆 383 Contributions in the Year 2026
  > 
 > 💼 Opted to Hire
  > 
@@ -132,21 +134,10 @@
 **I'm an Early 🐤** 
 
 ```text
-🌞 Morning                880 commits         ████░░░░░░░░░░░░░░░░░░░░░   15.98 % 
-🌆 Daytime                2423 commits        ███████████░░░░░░░░░░░░░░   43.99 % 
-🌃 Evening                1357 commits        ██████░░░░░░░░░░░░░░░░░░░   24.64 % 
-🌙 Night                  848 commits         ████░░░░░░░░░░░░░░░░░░░░░   15.40 % 
-```
-📅 **I'm Most Productive on Thursday** 
-
-```text
-Monday                   679 commits         ███░░░░░░░░░░░░░░░░░░░░░░   12.33 % 
-Tuesday                  811 commits         ████░░░░░░░░░░░░░░░░░░░░░   14.72 % 
-Wednesday                1271 commits        ██████░░░░░░░░░░░░░░░░░░░   23.08 % 
-Thursday                 1501 commits        ███████░░░░░░░░░░░░░░░░░░   27.25 % 
-Friday                   499 commits         ██░░░░░░░░░░░░░░░░░░░░░░░   09.06 % 
-Saturday                 444 commits         ██░░░░░░░░░░░░░░░░░░░░░░░   08.06 % 
-Sunday                   303 commits         █░░░░░░░░░░░░░░░░░░░░░░░░   05.50 % 
+🌞 Morning                880 commits         ████░░░░░░░░░░░░░░░░░░░░░   15.96 % 
+🌆 Daytime                2423 commits        ███████████░░░░░░░░░░░░░░   43.95 % 
+🌃 Evening                1362 commits        ██████░░░░░░░░░░░░░░░░░░░   24.71 % 
+🌙 Night                  848 commits         ████░░░░░░░░░░░░░░░░░░░░░   15.38 % 
 ```
 
 
@@ -154,38 +145,10 @@ Sunday                   303 commits         █░░░░░░░░░░�
 
 ```text
 🕑︎ Time Zone: America/Winnipeg
-
-💬 Programming Languages: 
-No Activity Tracked This Week
-
-🔥 Editors: 
-No Activity Tracked This Week
-
-🐱‍💻 Projects: 
-No Activity Tracked This Week
-
-💻 Operating System: 
-No Activity Tracked This Week
-```
-
-**I Mostly Code in Python** 
-
-```text
-Python                   8 repos             █████████░░░░░░░░░░░░░░░░   36.36 % 
-JavaScript               4 repos             █████░░░░░░░░░░░░░░░░░░░░   18.18 % 
-HTML                     2 repos             ██░░░░░░░░░░░░░░░░░░░░░░░   09.09 % 
-C#                       2 repos             ██░░░░░░░░░░░░░░░░░░░░░░░   09.09 % 
-TypeScript               1 repo              █░░░░░░░░░░░░░░░░░░░░░░░░   04.55 % 
 ```
 
 
-
-**Timeline**
-
-![Lines of Code chart](https://raw.githubusercontent.com/subhashyadavon/subhashyadavon/main/assets/bar_graph.png)
-
-
- Last Updated on 08/07/2026 02:26:03 UTC
+ Last Updated on 08/07/2026 03:00:11 UTC
 <!--END_SECTION:waka-->
 
 <!--START_SECTION:waka-simple-->
