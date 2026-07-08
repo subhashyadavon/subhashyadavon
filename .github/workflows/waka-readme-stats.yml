@@ -33,14 +33,13 @@ jobs:
           SHOW_COMMIT: "True"                 # Morning/Daytime/Evening/Night breakdown
           SHOW_TIMEZONE: "True"               # 🕑 Time Zone line
           SHOW_UPDATED_DATE: "True"           # "Last Updated on ..." footer
-          # Hidden: this action can't show all-time here (hardcoded to last 7
-          # days), so the weekly breakdown is skipped in favor of the
-          # all-time view already shown in the waka-simple section.
-          SHOW_LANGUAGE: "False"
-          SHOW_PROJECTS: "False"
+          SHOW_LANGUAGE: "True"               # 💬 Programming Languages (this week)
+          SHOW_PROJECTS: "True"               # 🐱‍💻 Projects (this week)
+          SHOW_DAYS_OF_WEEK: "True"           # Which days you're most productive
+          # Left off: OS/editors are low-signal, and the chart (SHOW_LOC_CHART)
+          # generates a PNG that needs to be committed on every run.
           SHOW_PROFILE_VIEWS: "False"
           SHOW_EDITORS: "False"
           SHOW_OS: "False"
           SHOW_LANGUAGE_PER_REPO: "False"
           SHOW_LOC_CHART: "False"
-          SHOW_DAYS_OF_WEEK: "False"
