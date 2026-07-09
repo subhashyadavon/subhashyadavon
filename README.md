@@ -109,7 +109,7 @@
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=subhashyadavon&theme=github-dark-blue&hide_border=true" height="165"/>
+  <img src="https://streak-stats.demolab.com?user=subhashyadavon&theme=github-dark-blue&hide_border=true&cache_bust=1" height="165"/>
 </p>
 
 ## 📊 Code Stats
