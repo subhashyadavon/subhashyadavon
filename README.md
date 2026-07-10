@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/212750999-42ff8a64-dad8-4772-9648-849968543991.gif" width="500"/>
+  <img src="https://raw.githubusercontent.com/subhashyadavon/subhashyadavon/main/assets/lofiboy.webp" width="500"/>
 </p>
 
 <h1 align="center">Hey 👋, I'm Subhash</h1>
