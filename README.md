@@ -115,15 +115,15 @@
 ## 📊 Code Stats
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-29%20hrs%2014%20mins-blue?style=flat)
+![Code Time](http://img.shields.io/badge/Code%20Time-29%20hrs%2037%20mins-blue?style=flat)
 
-![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-15.32%20million%20lines%20of%20code-blue?style=flat)
+![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-10.94%20million%20lines%20of%20code-blue?style=flat)
 
 **🐱 My GitHub Data** 
 
 > 📦 647.2 kB Used in GitHub's Storage 
  > 
-> 🏆 393 Contributions in the Year 2026
+> 🏆 398 Contributions in the Year 2026
  > 
 > 💼 Opted to Hire
  > 
@@ -134,21 +134,21 @@
 **I'm an Early 🐤** 
 
 ```text
-🌞 Morning                883 commits         ████░░░░░░░░░░░░░░░░░░░░░   16.08 % 
-🌆 Daytime                2412 commits        ███████████░░░░░░░░░░░░░░   43.92 % 
-🌃 Evening                1350 commits        ██████░░░░░░░░░░░░░░░░░░░   24.58 % 
-🌙 Night                  847 commits         ████░░░░░░░░░░░░░░░░░░░░░   15.42 % 
+🌞 Morning                736 commits         █████░░░░░░░░░░░░░░░░░░░░   18.45 % 
+🌆 Daytime                1784 commits        ███████████░░░░░░░░░░░░░░   44.72 % 
+🌃 Evening                916 commits         ██████░░░░░░░░░░░░░░░░░░░   22.96 % 
+🌙 Night                  553 commits         ███░░░░░░░░░░░░░░░░░░░░░░   13.86 % 
 ```
 📅 **I'm Most Productive on Thursday** 
 
 ```text
-Monday                   674 commits         ███░░░░░░░░░░░░░░░░░░░░░░   12.27 % 
-Tuesday                  814 commits         ████░░░░░░░░░░░░░░░░░░░░░   14.82 % 
-Wednesday                1273 commits        ██████░░░░░░░░░░░░░░░░░░░   23.18 % 
-Thursday                 1505 commits        ███████░░░░░░░░░░░░░░░░░░   27.40 % 
-Friday                   498 commits         ██░░░░░░░░░░░░░░░░░░░░░░░   09.07 % 
-Saturday                 435 commits         ██░░░░░░░░░░░░░░░░░░░░░░░   07.92 % 
-Sunday                   293 commits         █░░░░░░░░░░░░░░░░░░░░░░░░   05.34 % 
+Monday                   479 commits         ███░░░░░░░░░░░░░░░░░░░░░░   12.01 % 
+Tuesday                  534 commits         ███░░░░░░░░░░░░░░░░░░░░░░   13.39 % 
+Wednesday                891 commits         ██████░░░░░░░░░░░░░░░░░░░   22.34 % 
+Thursday                 1216 commits        ████████░░░░░░░░░░░░░░░░░   30.48 % 
+Friday                   336 commits         ██░░░░░░░░░░░░░░░░░░░░░░░   08.42 % 
+Saturday                 350 commits         ██░░░░░░░░░░░░░░░░░░░░░░░   08.77 % 
+Sunday                   183 commits         █░░░░░░░░░░░░░░░░░░░░░░░░   04.59 % 
 ```
 
 
@@ -158,20 +158,21 @@ Sunday                   293 commits         █░░░░░░░░░░�
 🕑︎ Time Zone: America/Winnipeg
 
 💬 Programming Languages: 
-YAML                     2 hrs 12 mins       ███████░░░░░░░░░░░░░░░░░░   27.85 % 
-TypeScript               2 hrs 10 mins       ███████░░░░░░░░░░░░░░░░░░   27.32 % 
-Markdown                 1 hr 18 mins        ████░░░░░░░░░░░░░░░░░░░░░   16.54 % 
-HTML                     58 mins             ███░░░░░░░░░░░░░░░░░░░░░░   12.27 % 
-Other                    43 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   09.15 % 
+YAML                     2 hrs 59 mins       ████████░░░░░░░░░░░░░░░░░   33.35 % 
+TypeScript               2 hrs 10 mins       ██████░░░░░░░░░░░░░░░░░░░   24.23 % 
+Markdown                 1 hr 25 mins        ████░░░░░░░░░░░░░░░░░░░░░   15.94 % 
+HTML                     58 mins             ███░░░░░░░░░░░░░░░░░░░░░░   10.88 % 
+Other                    43 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   08.12 % 
 
 🐱‍💻 Projects: 
-subhashyadavon           4 hrs 9 mins        █████████████░░░░░░░░░░░░   52.37 % 
-Superstars-WebApp        3 hrs 38 mins       ███████████░░░░░░░░░░░░░░   45.82 % 
-SubhashYadav             8 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.81 % 
+subhashyadavon           4 hrs 16 mins       ████████████░░░░░░░░░░░░░   47.72 % 
+Superstars-WebApp        3 hrs 38 mins       ██████████░░░░░░░░░░░░░░░   40.63 % 
+ustep                    53 mins             ███░░░░░░░░░░░░░░░░░░░░░░   10.04 % 
+SubhashYadav             8 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.60 % 
 ```
 
 
- Last Updated on 10/07/2026 03:51:13 UTC
+ Last Updated on 10/07/2026 09:26:40 UTC
 <!--END_SECTION:waka-->
 
 <!--START_SECTION:waka-simple-->
