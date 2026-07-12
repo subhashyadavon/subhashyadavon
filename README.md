@@ -53,6 +53,7 @@
   <img alt=".NET Core" src="https://img.shields.io/badge/-.NET_Core-512BD4?style=flat-square&logo=dotnet&logoColor=white" />
   <img alt="FastAPI" src="https://img.shields.io/badge/-FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" />
   <img alt="Node.js" src="https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=node.js&logoColor=white" />
+  <img alt="jQuery" src="https://img.shields.io/badge/-jQuery-0769AD?style=flat-square&logo=jquery&logoColor=white" />
 </p>
 
 #### AI / ML
