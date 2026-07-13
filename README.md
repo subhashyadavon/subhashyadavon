@@ -157,21 +157,21 @@ Sunday                   297 commits         █░░░░░░░░░░�
 🕑︎ Time Zone: America/Winnipeg
 
 💬 Programming Languages: 
-YAML                     2 hrs 59 mins       ████████░░░░░░░░░░░░░░░░░   31.87 % 
-TypeScript               2 hrs 10 mins       ██████░░░░░░░░░░░░░░░░░░░   23.16 % 
-Markdown                 1 hr 38 mins        ████░░░░░░░░░░░░░░░░░░░░░   17.51 % 
-HTML                     58 mins             ███░░░░░░░░░░░░░░░░░░░░░░   10.40 % 
-Other                    43 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   07.76 % 
+YAML                     3 hrs 4 mins        ████████░░░░░░░░░░░░░░░░░   32.18 % 
+TypeScript               2 hrs 10 mins       ██████░░░░░░░░░░░░░░░░░░░   22.67 % 
+Markdown                 1 hr 41 mins        ████░░░░░░░░░░░░░░░░░░░░░   17.71 % 
+HTML                     58 mins             ███░░░░░░░░░░░░░░░░░░░░░░   10.18 % 
+Other                    43 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   07.59 % 
 
 🐱‍💻 Projects: 
-subhashyadavon           4 hrs 29 mins       ████████████░░░░░░░░░░░░░   47.88 % 
-Superstars-WebApp        3 hrs 38 mins       ██████████░░░░░░░░░░░░░░░   38.84 % 
-ustep                    53 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   09.60 % 
-SubhashYadav             20 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   03.68 % 
+subhashyadavon           4 hrs 37 mins       ████████████░░░░░░░░░░░░░   48.41 % 
+Superstars-WebApp        3 hrs 38 mins       ██████████░░░░░░░░░░░░░░░   38.02 % 
+ustep                    53 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   09.40 % 
+SubhashYadav             23 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   04.17 % 
 ```
 
 
- Last Updated on 13/07/2026 09:56:00 UTC
+ Last Updated on 13/07/2026 15:01:25 UTC
 <!--END_SECTION:waka-->
 
 <!--START_SECTION:waka-simple-->
