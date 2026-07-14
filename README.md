@@ -50,6 +50,7 @@
 <p>
   <img alt="React" src="https://img.shields.io/badge/-React-45b8d8?style=flat-square&logo=react&logoColor=white" />
   <img alt="Angular" src="https://img.shields.io/badge/-Angular-DD0031?style=flat-square&logo=angular&logoColor=white" />
+  <img alt="ASP.NET Core" src="https://img.shields.io/badge/-ASP.NET_Core-512BD4?style=flat-square&logo=dotnet&logoColor=white" />
   <img alt=".NET Core" src="https://img.shields.io/badge/-.NET_Core-512BD4?style=flat-square&logo=dotnet&logoColor=white" />
   <img alt="FastAPI" src="https://img.shields.io/badge/-FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" />
   <img alt="Node.js" src="https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=node.js&logoColor=white" />
