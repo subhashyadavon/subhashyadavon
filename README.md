@@ -116,11 +116,11 @@
 ## 📊 Code Stats
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-31%20hrs%2019%20mins-blue?style=flat)
+![Code Time](http://img.shields.io/badge/Code%20Time-31%20hrs%2023%20mins-blue?style=flat)
 
 **🐱 My GitHub Data** 
 
-> 📦 648.1 kB Used in GitHub's Storage 
+> 📦 648.3 kB Used in GitHub's Storage 
  > 
 > 🏆 413 Contributions in the Year 2026
  > 
@@ -133,21 +133,21 @@
 **I'm an Early 🐤** 
 
 ```text
-🌞 Morning                831 commits         ████░░░░░░░░░░░░░░░░░░░░░   16.39 % 
-🌆 Daytime                2253 commits        ███████████░░░░░░░░░░░░░░   44.43 % 
-🌃 Evening                1204 commits        ██████░░░░░░░░░░░░░░░░░░░   23.74 % 
-🌙 Night                  783 commits         ████░░░░░░░░░░░░░░░░░░░░░   15.44 % 
+🌞 Morning                885 commits         ████░░░░░░░░░░░░░░░░░░░░░   16.06 % 
+🌆 Daytime                2414 commits        ███████████░░░░░░░░░░░░░░   43.80 % 
+🌃 Evening                1360 commits        ██████░░░░░░░░░░░░░░░░░░░   24.68 % 
+🌙 Night                  852 commits         ████░░░░░░░░░░░░░░░░░░░░░   15.46 % 
 ```
 📅 **I'm Most Productive on Thursday** 
 
 ```text
-Monday                   633 commits         ███░░░░░░░░░░░░░░░░░░░░░░   12.48 % 
-Tuesday                  727 commits         ████░░░░░░░░░░░░░░░░░░░░░   14.34 % 
-Wednesday                1227 commits        ██████░░░░░░░░░░░░░░░░░░░   24.20 % 
-Thursday                 1430 commits        ███████░░░░░░░░░░░░░░░░░░   28.20 % 
-Friday                   395 commits         ██░░░░░░░░░░░░░░░░░░░░░░░   07.79 % 
-Saturday                 396 commits         ██░░░░░░░░░░░░░░░░░░░░░░░   07.81 % 
-Sunday                   263 commits         █░░░░░░░░░░░░░░░░░░░░░░░░   05.19 % 
+Monday                   684 commits         ███░░░░░░░░░░░░░░░░░░░░░░   12.41 % 
+Tuesday                  814 commits         ████░░░░░░░░░░░░░░░░░░░░░   14.77 % 
+Wednesday                1273 commits        ██████░░░░░░░░░░░░░░░░░░░   23.10 % 
+Thursday                 1505 commits        ███████░░░░░░░░░░░░░░░░░░   27.31 % 
+Friday                   503 commits         ██░░░░░░░░░░░░░░░░░░░░░░░   09.13 % 
+Saturday                 435 commits         ██░░░░░░░░░░░░░░░░░░░░░░░   07.89 % 
+Sunday                   297 commits         █░░░░░░░░░░░░░░░░░░░░░░░░   05.39 % 
 ```
 
 
@@ -157,21 +157,22 @@ Sunday                   263 commits         █░░░░░░░░░░�
 🕑︎ Time Zone: America/Winnipeg
 
 💬 Programming Languages: 
-YAML                     3 hrs 4 mins        ████████░░░░░░░░░░░░░░░░░   32.18 % 
-TypeScript               2 hrs 10 mins       ██████░░░░░░░░░░░░░░░░░░░   22.67 % 
-Markdown                 1 hr 41 mins        ████░░░░░░░░░░░░░░░░░░░░░   17.71 % 
-HTML                     58 mins             ███░░░░░░░░░░░░░░░░░░░░░░   10.18 % 
-Other                    43 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   07.59 % 
+YAML                     3 hrs 5 mins        ███████░░░░░░░░░░░░░░░░░░   29.04 % 
+TypeScript               2 hrs 1 min         █████░░░░░░░░░░░░░░░░░░░░   19.11 % 
+Markdown                 1 hr 56 mins        █████░░░░░░░░░░░░░░░░░░░░   18.27 % 
+Swift                    1 hr 8 mins         ███░░░░░░░░░░░░░░░░░░░░░░   10.70 % 
+HTML                     58 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   09.16 % 
 
 🐱‍💻 Projects: 
-subhashyadavon           4 hrs 37 mins       ████████████░░░░░░░░░░░░░   48.41 % 
-Superstars-WebApp        3 hrs 38 mins       ██████████░░░░░░░░░░░░░░░   38.02 % 
-ustep                    53 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   09.40 % 
-SubhashYadav             23 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   04.17 % 
+subhashyadavon           4 hrs 51 mins       ███████████░░░░░░░░░░░░░░   45.69 % 
+Superstars-WebApp        3 hrs 10 mins       ███████░░░░░░░░░░░░░░░░░░   29.81 % 
+PriorityQueue            1 hr 15 mins        ███░░░░░░░░░░░░░░░░░░░░░░   11.80 % 
+ustep                    53 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   08.45 % 
+SubhashYadav             27 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   04.25 % 
 ```
 
 
- Last Updated on 14/07/2026 02:42:22 UTC
+ Last Updated on 14/07/2026 08:32:16 UTC
 <!--END_SECTION:waka-->
 
 <!--START_SECTION:waka-simple-->
