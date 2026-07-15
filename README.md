@@ -116,7 +116,7 @@
 ## 📊 Code Stats
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-31%20hrs%2023%20mins-blue?style=flat)
+![Code Time](http://img.shields.io/badge/Code%20Time-33%20hrs%2058%20mins-blue?style=flat)
 
 **🐱 My GitHub Data** 
 
@@ -157,22 +157,22 @@ Sunday                   297 commits         █░░░░░░░░░░�
 🕑︎ Time Zone: America/Winnipeg
 
 💬 Programming Languages: 
-YAML                     3 hrs 5 mins        ███████░░░░░░░░░░░░░░░░░░   29.04 % 
-TypeScript               2 hrs 1 min         █████░░░░░░░░░░░░░░░░░░░░   19.11 % 
-Markdown                 1 hr 56 mins        █████░░░░░░░░░░░░░░░░░░░░   18.27 % 
-Swift                    1 hr 8 mins         ███░░░░░░░░░░░░░░░░░░░░░░   10.70 % 
-HTML                     58 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   09.16 % 
+TypeScript               2 hrs 15 mins       ██████░░░░░░░░░░░░░░░░░░░   22.77 % 
+YAML                     1 hr 46 mins        ████░░░░░░░░░░░░░░░░░░░░░   17.96 % 
+HTML                     1 hr 43 mins        ████░░░░░░░░░░░░░░░░░░░░░   17.38 % 
+Markdown                 1 hr 39 mins        ████░░░░░░░░░░░░░░░░░░░░░   16.71 % 
+Swift                    1 hr 8 mins         ███░░░░░░░░░░░░░░░░░░░░░░   11.47 % 
 
 🐱‍💻 Projects: 
-subhashyadavon           4 hrs 51 mins       ███████████░░░░░░░░░░░░░░   45.69 % 
-Superstars-WebApp        3 hrs 10 mins       ███████░░░░░░░░░░░░░░░░░░   29.81 % 
-PriorityQueue            1 hr 15 mins        ███░░░░░░░░░░░░░░░░░░░░░░   11.80 % 
-ustep                    53 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   08.45 % 
-SubhashYadav             27 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   04.25 % 
+Superstars-WebApp        4 hrs 44 mins       ████████████░░░░░░░░░░░░░   47.72 % 
+subhashyadavon           2 hrs 2 mins        █████░░░░░░░░░░░░░░░░░░░░   20.57 % 
+PriorityQueue            1 hr 15 mins        ███░░░░░░░░░░░░░░░░░░░░░░   12.65 % 
+ustep                    53 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   09.06 % 
+todo-app                 29 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   04.87 % 
 ```
 
 
- Last Updated on 15/07/2026 08:36:59 UTC
+ Last Updated on 15/07/2026 14:11:42 UTC
 <!--END_SECTION:waka-->
 
 <!--START_SECTION:waka-simple-->
