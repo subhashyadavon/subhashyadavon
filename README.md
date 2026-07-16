@@ -116,8 +116,6 @@
 ## 📊 Code Stats
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-33%20hrs%2058%20mins-blue?style=flat)
-
 **🐱 My GitHub Data** 
 
 > 📦 648.2 kB Used in GitHub's Storage 
@@ -130,49 +128,8 @@
  > 
 > 🔑 13 Private Repositories 
  > 
-**I'm an Early 🐤** 
 
-```text
-🌞 Morning                885 commits         ████░░░░░░░░░░░░░░░░░░░░░   16.06 % 
-🌆 Daytime                2414 commits        ███████████░░░░░░░░░░░░░░   43.80 % 
-🌃 Evening                1360 commits        ██████░░░░░░░░░░░░░░░░░░░   24.68 % 
-🌙 Night                  852 commits         ████░░░░░░░░░░░░░░░░░░░░░   15.46 % 
-```
-📅 **I'm Most Productive on Thursday** 
-
-```text
-Monday                   684 commits         ███░░░░░░░░░░░░░░░░░░░░░░   12.41 % 
-Tuesday                  814 commits         ████░░░░░░░░░░░░░░░░░░░░░   14.77 % 
-Wednesday                1273 commits        ██████░░░░░░░░░░░░░░░░░░░   23.10 % 
-Thursday                 1505 commits        ███████░░░░░░░░░░░░░░░░░░   27.31 % 
-Friday                   503 commits         ██░░░░░░░░░░░░░░░░░░░░░░░   09.13 % 
-Saturday                 435 commits         ██░░░░░░░░░░░░░░░░░░░░░░░   07.89 % 
-Sunday                   297 commits         █░░░░░░░░░░░░░░░░░░░░░░░░   05.39 % 
-```
-
-
-📊 **This Week I Spent My Time On** 
-
-```text
-🕑︎ Time Zone: America/Winnipeg
-
-💬 Programming Languages: 
-TypeScript               2 hrs 15 mins       ██████░░░░░░░░░░░░░░░░░░░   22.77 % 
-YAML                     1 hr 46 mins        ████░░░░░░░░░░░░░░░░░░░░░   17.96 % 
-HTML                     1 hr 43 mins        ████░░░░░░░░░░░░░░░░░░░░░   17.38 % 
-Markdown                 1 hr 39 mins        ████░░░░░░░░░░░░░░░░░░░░░   16.71 % 
-Swift                    1 hr 8 mins         ███░░░░░░░░░░░░░░░░░░░░░░   11.47 % 
-
-🐱‍💻 Projects: 
-Superstars-WebApp        4 hrs 44 mins       ████████████░░░░░░░░░░░░░   47.72 % 
-subhashyadavon           2 hrs 2 mins        █████░░░░░░░░░░░░░░░░░░░░   20.57 % 
-PriorityQueue            1 hr 15 mins        ███░░░░░░░░░░░░░░░░░░░░░░   12.65 % 
-ustep                    53 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   09.06 % 
-todo-app                 29 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   04.87 % 
-```
-
-
- Last Updated on 16/07/2026 08:37:19 UTC
+ Last Updated on 16/07/2026 14:20:39 UTC
 <!--END_SECTION:waka-->
 
 <!--START_SECTION:waka-simple-->
