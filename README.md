@@ -116,6 +116,8 @@
 ## 📊 Code Stats
 
 <!--START_SECTION:waka-->
+![Code Time](http://img.shields.io/badge/Code%20Time-37%20hrs%205%20mins-blue?style=flat)
+
 **🐱 My GitHub Data** 
 
 > 📦 648.2 kB Used in GitHub's Storage 
@@ -128,8 +130,49 @@
  > 
 > 🔑 13 Private Repositories 
  > 
+**I'm an Early 🐤** 
 
- Last Updated on 16/07/2026 14:20:39 UTC
+```text
+🌞 Morning                885 commits         ████░░░░░░░░░░░░░░░░░░░░░   16.06 % 
+🌆 Daytime                2414 commits        ███████████░░░░░░░░░░░░░░   43.80 % 
+🌃 Evening                1360 commits        ██████░░░░░░░░░░░░░░░░░░░   24.68 % 
+🌙 Night                  852 commits         ████░░░░░░░░░░░░░░░░░░░░░   15.46 % 
+```
+📅 **I'm Most Productive on Thursday** 
+
+```text
+Monday                   684 commits         ███░░░░░░░░░░░░░░░░░░░░░░   12.41 % 
+Tuesday                  814 commits         ████░░░░░░░░░░░░░░░░░░░░░   14.77 % 
+Wednesday                1273 commits        ██████░░░░░░░░░░░░░░░░░░░   23.10 % 
+Thursday                 1505 commits        ███████░░░░░░░░░░░░░░░░░░   27.31 % 
+Friday                   503 commits         ██░░░░░░░░░░░░░░░░░░░░░░░   09.13 % 
+Saturday                 435 commits         ██░░░░░░░░░░░░░░░░░░░░░░░   07.89 % 
+Sunday                   297 commits         █░░░░░░░░░░░░░░░░░░░░░░░░   05.39 % 
+```
+
+
+📊 **This Week I Spent My Time On** 
+
+```text
+🕑︎ Time Zone: America/Winnipeg
+
+💬 Programming Languages: 
+Markdown                 1 hr 14 mins        █████░░░░░░░░░░░░░░░░░░░░   19.06 % 
+Swift                    1 hr 8 mins         ████░░░░░░░░░░░░░░░░░░░░░   17.46 % 
+HTML                     1 hr 2 mins         ████░░░░░░░░░░░░░░░░░░░░░   16.01 % 
+YAML                     52 mins             ███░░░░░░░░░░░░░░░░░░░░░░   13.47 % 
+SCSS                     41 mins             ███░░░░░░░░░░░░░░░░░░░░░░   10.72 % 
+
+🐱‍💻 Projects: 
+Superstars-WebApp        2 hrs 47 mins       ███████████░░░░░░░░░░░░░░   42.90 % 
+PriorityQueue            1 hr 15 mins        █████░░░░░░░░░░░░░░░░░░░░   19.26 % 
+ustep                    53 mins             ███░░░░░░░░░░░░░░░░░░░░░░   13.79 % 
+subhashyadavon           42 mins             ███░░░░░░░░░░░░░░░░░░░░░░   10.78 % 
+todo-app                 29 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   07.42 % 
+```
+
+
+ Last Updated on 16/07/2026 19:36:52 UTC
 <!--END_SECTION:waka-->
 
 <!--START_SECTION:waka-simple-->
