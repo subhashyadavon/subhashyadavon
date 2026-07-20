@@ -157,22 +157,22 @@ Sunday                   297 commits         █░░░░░░░░░░�
 🕑︎ Time Zone: America/Winnipeg
 
 💬 Programming Languages: 
-HTML                     2 hrs 21 mins       ████████░░░░░░░░░░░░░░░░░   30.99 % 
-TypeScript               1 hr 16 mins        ████░░░░░░░░░░░░░░░░░░░░░   16.63 % 
-Swift                    1 hr 8 mins         ████░░░░░░░░░░░░░░░░░░░░░   14.91 % 
-Markdown                 54 mins             ███░░░░░░░░░░░░░░░░░░░░░░   12.00 % 
-SCSS                     54 mins             ███░░░░░░░░░░░░░░░░░░░░░░   11.99 % 
+HTML                     2 hrs 22 mins       ████████░░░░░░░░░░░░░░░░░   31.75 % 
+TypeScript               1 hr 17 mins        ████░░░░░░░░░░░░░░░░░░░░░   17.41 % 
+Swift                    1 hr 8 mins         ████░░░░░░░░░░░░░░░░░░░░░   15.24 % 
+SCSS                     54 mins             ███░░░░░░░░░░░░░░░░░░░░░░   12.25 % 
+Markdown                 50 mins             ███░░░░░░░░░░░░░░░░░░░░░░   11.37 % 
 
 🐱‍💻 Projects: 
-Superstars-WebApp        5 hrs 20 mins       █████████████████░░░░░░░░   69.92 % 
-PriorityQueue            1 hr 15 mins        ████░░░░░░░░░░░░░░░░░░░░░   16.45 % 
-todo-app                 29 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   06.34 % 
-subhashyadavon           22 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   04.92 % 
-SubhashYadav             6 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.40 % 
+Superstars-WebApp        5 hrs 22 mins       ██████████████████░░░░░░░   71.95 % 
+PriorityQueue            1 hr 15 mins        ████░░░░░░░░░░░░░░░░░░░░░   16.82 % 
+todo-app                 29 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   06.48 % 
+subhashyadavon           13 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   03.06 % 
+CarDex-Prod              4 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.99 % 
 ```
 
 
- Last Updated on 20/07/2026 09:40:36 UTC
+ Last Updated on 20/07/2026 14:36:04 UTC
 <!--END_SECTION:waka-->
 
 <!--START_SECTION:waka-simple-->
