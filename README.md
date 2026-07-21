@@ -133,21 +133,21 @@
 **I'm an Early 🐤** 
 
 ```text
-🌞 Morning                888 commits         ████░░░░░░░░░░░░░░░░░░░░░   16.08 % 
-🌆 Daytime                2420 commits        ███████████░░░░░░░░░░░░░░   43.82 % 
-🌃 Evening                1360 commits        ██████░░░░░░░░░░░░░░░░░░░   24.62 % 
-🌙 Night                  855 commits         ████░░░░░░░░░░░░░░░░░░░░░   15.48 % 
+🌞 Morning                888 commits         ████░░░░░░░░░░░░░░░░░░░░░   16.13 % 
+🌆 Daytime                2403 commits        ███████████░░░░░░░░░░░░░░   43.65 % 
+🌃 Evening                1359 commits        ██████░░░░░░░░░░░░░░░░░░░   24.69 % 
+🌙 Night                  855 commits         ████░░░░░░░░░░░░░░░░░░░░░   15.53 % 
 ```
 📅 **I'm Most Productive on Thursday** 
 
 ```text
-Monday                   687 commits         ███░░░░░░░░░░░░░░░░░░░░░░   12.44 % 
-Tuesday                  821 commits         ████░░░░░░░░░░░░░░░░░░░░░   14.87 % 
-Wednesday                1275 commits        ██████░░░░░░░░░░░░░░░░░░░   23.09 % 
-Thursday                 1505 commits        ███████░░░░░░░░░░░░░░░░░░   27.25 % 
-Friday                   503 commits         ██░░░░░░░░░░░░░░░░░░░░░░░   09.11 % 
-Saturday                 435 commits         ██░░░░░░░░░░░░░░░░░░░░░░░   07.88 % 
-Sunday                   297 commits         █░░░░░░░░░░░░░░░░░░░░░░░░   05.38 % 
+Monday                   681 commits         ███░░░░░░░░░░░░░░░░░░░░░░   12.37 % 
+Tuesday                  810 commits         ████░░░░░░░░░░░░░░░░░░░░░   14.71 % 
+Wednesday                1275 commits        ██████░░░░░░░░░░░░░░░░░░░   23.16 % 
+Thursday                 1505 commits        ███████░░░░░░░░░░░░░░░░░░   27.34 % 
+Friday                   502 commits         ██░░░░░░░░░░░░░░░░░░░░░░░   09.12 % 
+Saturday                 435 commits         ██░░░░░░░░░░░░░░░░░░░░░░░   07.90 % 
+Sunday                   297 commits         █░░░░░░░░░░░░░░░░░░░░░░░░   05.40 % 
 ```
 
 
@@ -157,22 +157,20 @@ Sunday                   297 commits         █░░░░░░░░░░�
 🕑︎ Time Zone: America/Winnipeg
 
 💬 Programming Languages: 
-HTML                     2 hrs 22 mins       ████████░░░░░░░░░░░░░░░░░   31.75 % 
-TypeScript               1 hr 17 mins        ████░░░░░░░░░░░░░░░░░░░░░   17.41 % 
-Swift                    1 hr 8 mins         ████░░░░░░░░░░░░░░░░░░░░░   15.24 % 
-SCSS                     54 mins             ███░░░░░░░░░░░░░░░░░░░░░░   12.25 % 
-Markdown                 50 mins             ███░░░░░░░░░░░░░░░░░░░░░░   11.37 % 
+HTML                     2 hrs 22 mins       ██████████░░░░░░░░░░░░░░░   39.30 % 
+TypeScript               1 hr 17 mins        █████░░░░░░░░░░░░░░░░░░░░   21.54 % 
+SCSS                     54 mins             ████░░░░░░░░░░░░░░░░░░░░░   15.16 % 
+Markdown                 35 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   09.95 % 
+Other                    31 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   08.70 % 
 
 🐱‍💻 Projects: 
-Superstars-WebApp        5 hrs 22 mins       ██████████████████░░░░░░░   71.95 % 
-PriorityQueue            1 hr 15 mins        ████░░░░░░░░░░░░░░░░░░░░░   16.82 % 
-todo-app                 29 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   06.48 % 
-subhashyadavon           13 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   03.06 % 
-CarDex-Prod              4 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.99 % 
+Superstars-WebApp        5 hrs 28 mins       ███████████████████████░░   90.75 % 
+todo-app                 29 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   08.02 % 
+CarDex-Prod              4 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.23 % 
 ```
 
 
- Last Updated on 21/07/2026 08:58:43 UTC
+ Last Updated on 21/07/2026 14:21:31 UTC
 <!--END_SECTION:waka-->
 
 <!--START_SECTION:waka-simple-->
