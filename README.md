@@ -116,7 +116,7 @@
 ## 📊 Code Stats
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-37%20hrs%2056%20mins-blue?style=flat)
+![Code Time](http://img.shields.io/badge/Code%20Time-38%20hrs%205%20mins-blue?style=flat)
 
 **🐱 My GitHub Data** 
 
@@ -157,20 +157,18 @@ Sunday                   297 commits         █░░░░░░░░░░�
 🕑︎ Time Zone: America/Winnipeg
 
 💬 Programming Languages: 
-HTML                     2 hrs 22 mins       ██████████░░░░░░░░░░░░░░░   39.30 % 
-TypeScript               1 hr 17 mins        █████░░░░░░░░░░░░░░░░░░░░   21.54 % 
-SCSS                     54 mins             ████░░░░░░░░░░░░░░░░░░░░░   15.16 % 
-Markdown                 35 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   09.95 % 
-Other                    31 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   08.70 % 
+HTML                     1 hr 36 mins        ██████████░░░░░░░░░░░░░░░   40.69 % 
+TypeScript               1 hr 17 mins        ████████░░░░░░░░░░░░░░░░░   32.37 % 
+Other                    31 mins             ███░░░░░░░░░░░░░░░░░░░░░░   13.22 % 
+SCSS                     28 mins             ███░░░░░░░░░░░░░░░░░░░░░░   11.96 % 
+Image (svg)              3 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.44 % 
 
 🐱‍💻 Projects: 
-Superstars-WebApp        5 hrs 28 mins       ███████████████████████░░   90.75 % 
-todo-app                 29 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   08.02 % 
-CarDex-Prod              4 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.23 % 
+Superstars-WebApp        3 hrs 57 mins       █████████████████████████   100.00 % 
 ```
 
 
- Last Updated on 22/07/2026 08:58:17 UTC
+ Last Updated on 22/07/2026 14:26:09 UTC
 <!--END_SECTION:waka-->
 
 <!--START_SECTION:waka-simple-->
