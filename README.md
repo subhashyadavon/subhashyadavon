@@ -157,19 +157,20 @@ Sunday                   297 commits         █░░░░░░░░░░�
 🕑︎ Time Zone: America/Winnipeg
 
 💬 Programming Languages: 
-TypeScript               1 hr 32 mins        ██████████░░░░░░░░░░░░░░░   38.05 % 
-SCSS                     49 mins             █████░░░░░░░░░░░░░░░░░░░░   20.36 % 
-HTML                     43 mins             ████░░░░░░░░░░░░░░░░░░░░░   17.76 % 
-Text                     38 mins             ████░░░░░░░░░░░░░░░░░░░░░   15.91 % 
-Other                    10 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   04.25 % 
+TypeScript               1 hr 33 mins        █████████░░░░░░░░░░░░░░░░   35.71 % 
+SCSS                     49 mins             █████░░░░░░░░░░░░░░░░░░░░   19.01 % 
+HTML                     49 mins             █████░░░░░░░░░░░░░░░░░░░░   18.97 % 
+Text                     38 mins             ████░░░░░░░░░░░░░░░░░░░░░   14.86 % 
+Other                    13 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   05.33 % 
 
 🐱‍💻 Projects: 
-Superstars-WebApp        3 hrs 54 mins       ████████████████████████░   96.33 % 
-CarDex                   8 mins              █░░░░░░░░░░░░░░░░░░░░░░░░   03.67 % 
+Superstars-WebApp        3 hrs 54 mins       ███████████████████████░░   90.13 % 
+todo-app                 16 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   06.43 % 
+CarDex                   8 mins              █░░░░░░░░░░░░░░░░░░░░░░░░   03.43 % 
 ```
 
 
- Last Updated on 26/07/2026 08:53:32 UTC
+ Last Updated on 26/07/2026 13:50:11 UTC
 <!--END_SECTION:waka-->
 
 <!--START_SECTION:waka-simple-->
