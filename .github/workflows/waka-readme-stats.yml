@@ -27,7 +27,12 @@ jobs:
       - name: WakaTime stats (attempt 1)
         id: waka1
         continue-on-error: true
-        uses: anmol098/waka-readme-stats@6a2ec228c5ab57e173ac03586902a0b06b8f9301 # pinned: pre-AI-stats feature (2026-06-02)
+        # Note: this action's git ref can't be pinned for real -- action.yml
+        # always points at the floating `docker://wakareadmestats/waka-readme-stats:master`
+        # image tag, regardless of which commit/tag you reference here. So new
+        # upstream features (like AI Code Time) must be disabled via explicit
+        # flags below, not by pinning a version.
+        uses: anmol098/waka-readme-stats@master
         with: &waka-inputs
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
@@ -46,15 +51,18 @@ jobs:
           SHOW_OS: "False"
           SHOW_LANGUAGE_PER_REPO: "False"
           SHOW_LOC_CHART: "False"
+          # Added upstream 2026-07-27 and defaulted to True -- explicitly off.
+          SHOW_AI_CODE_TIME: "False"
+          SHOW_AI_CODING: "False"
 
       - name: WakaTime stats (attempt 2)
         id: waka2
         if: steps.waka1.outcome == 'failure'
         continue-on-error: true
-        uses: anmol098/waka-readme-stats@6a2ec228c5ab57e173ac03586902a0b06b8f9301 # pinned: pre-AI-stats feature (2026-06-02)
+        uses: anmol098/waka-readme-stats@master
         with: *waka-inputs
 
       - name: WakaTime stats (attempt 3)
         if: steps.waka2.outcome == 'failure'
-        uses: anmol098/waka-readme-stats@6a2ec228c5ab57e173ac03586902a0b06b8f9301 # pinned: pre-AI-stats feature (2026-06-02)
+        uses: anmol098/waka-readme-stats@master
         with: *waka-inputs
