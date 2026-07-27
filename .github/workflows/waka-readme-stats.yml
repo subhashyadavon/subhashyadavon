@@ -27,7 +27,7 @@ jobs:
       - name: WakaTime stats (attempt 1)
         id: waka1
         continue-on-error: true
-        uses: anmol098/waka-readme-stats@master
+        uses: anmol098/waka-readme-stats@6a2ec228c5ab57e173ac03586902a0b06b8f9301 # pinned: pre-AI-stats feature (2026-06-02)
         with: &waka-inputs
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
@@ -51,10 +51,10 @@ jobs:
         id: waka2
         if: steps.waka1.outcome == 'failure'
         continue-on-error: true
-        uses: anmol098/waka-readme-stats@master
+        uses: anmol098/waka-readme-stats@6a2ec228c5ab57e173ac03586902a0b06b8f9301 # pinned: pre-AI-stats feature (2026-06-02)
         with: *waka-inputs
 
       - name: WakaTime stats (attempt 3)
         if: steps.waka2.outcome == 'failure'
-        uses: anmol098/waka-readme-stats@master
+        uses: anmol098/waka-readme-stats@6a2ec228c5ab57e173ac03586902a0b06b8f9301 # pinned: pre-AI-stats feature (2026-06-02)
         with: *waka-inputs
