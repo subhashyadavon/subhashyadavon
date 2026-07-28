@@ -116,7 +116,7 @@
 ## 📊 Code Stats
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-40%20hrs%2043%20mins-blue?style=flat)
+![Code Time](http://img.shields.io/badge/Code%20Time-44%20hrs%2045%20mins-blue?style=flat)
 
 **🐱 My GitHub Data** 
 
@@ -130,8 +130,48 @@
  > 
 > 🔑 12 Private Repositories 
  > 
+**I'm an Early 🐤** 
 
- Last Updated on 28/07/2026 09:02:52 UTC
+```text
+🌞 Morning                899 commits         ████░░░░░░░░░░░░░░░░░░░░░   16.17 % 
+🌆 Daytime                2445 commits        ███████████░░░░░░░░░░░░░░   43.98 % 
+🌃 Evening                1360 commits        ██████░░░░░░░░░░░░░░░░░░░   24.46 % 
+🌙 Night                  855 commits         ████░░░░░░░░░░░░░░░░░░░░░   15.38 % 
+```
+📅 **I'm Most Productive on Thursday** 
+
+```text
+Monday                   708 commits         ███░░░░░░░░░░░░░░░░░░░░░░   12.74 % 
+Tuesday                  821 commits         ████░░░░░░░░░░░░░░░░░░░░░   14.77 % 
+Wednesday                1275 commits        ██████░░░░░░░░░░░░░░░░░░░   22.94 % 
+Thursday                 1510 commits        ███████░░░░░░░░░░░░░░░░░░   27.16 % 
+Friday                   509 commits         ██░░░░░░░░░░░░░░░░░░░░░░░   09.16 % 
+Saturday                 439 commits         ██░░░░░░░░░░░░░░░░░░░░░░░   07.90 % 
+Sunday                   297 commits         █░░░░░░░░░░░░░░░░░░░░░░░░   05.34 % 
+```
+
+
+📊 **This Week I Spent My Time On** 
+
+```text
+🕑︎ Time Zone: America/Winnipeg
+
+💬 Programming Languages: 
+TypeScript               2 hrs 29 mins       ███████░░░░░░░░░░░░░░░░░░   29.40 % 
+SCSS                     2 hrs 4 mins        ██████░░░░░░░░░░░░░░░░░░░   24.42 % 
+HTML                     1 hr 28 mins        ████░░░░░░░░░░░░░░░░░░░░░   17.29 % 
+Text                     1 hr 25 mins        ████░░░░░░░░░░░░░░░░░░░░░   16.69 % 
+YAML                     27 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   05.34 % 
+
+🐱‍💻 Projects: 
+Superstars-WebApp        7 hrs 11 mins       █████████████████████░░░░   84.63 % 
+subhashyadavon           37 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   07.41 % 
+todo-app                 31 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   06.20 % 
+CarDex                   8 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.75 % 
+```
+
+
+ Last Updated on 28/07/2026 14:36:44 UTC
 <!--END_SECTION:waka-->
 
 <!--START_SECTION:waka-simple-->
