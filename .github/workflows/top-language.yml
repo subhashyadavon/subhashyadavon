@@ -29,16 +29,53 @@ jobs:
         run: |
           set -euo pipefail
           response=$(curl -s "https://wakatime.com/api/v1/users/current/stats/all_time?api_key=${WAKATIME_API_KEY}")
+
+          # Per-language brand color/logo so each badge looks visually
+          # distinct, matching shields.io conventions. Falls back to a
+          # neutral gray, unlabeled badge for anything not in the table.
+          declare -A COLOR=(
+            [SCSS]="CC6699" [TypeScript]="3178C6" [HTML]="E34F26" [YAML]="CB171E"
+            [Markdown]="000000" [JavaScript]="F7DF1E" [CSS]="1572B6" [Swift]="FA7343"
+            [Python]="3776AB" [Java]="ED8B00" ["C#"]="512BD4" [C]="00599C" [SQL]="4479A1"
+            [JSON]="000000" [Shell]="4EAA25" [Dockerfile]="2496ED" [Go]="00ADD8"
+            [Rust]="000000" [PHP]="777BB4" [Ruby]="CC342D" [Vue]="4FC08D" ["C++"]="00599C"
+          )
+          declare -A LOGO=(
+            [SCSS]="sass" [TypeScript]="typescript" [HTML]="html5" [YAML]="yaml"
+            [Markdown]="markdown" [JavaScript]="javascript" [CSS]="css3" [Swift]="swift"
+            [Python]="python" [Java]="openjdk" ["C#"]="dotnet" [C]="c" [SQL]="postgresql"
+            [JSON]="json" [Shell]="gnubash" [Dockerfile]="docker" [Go]="go" [Rust]="rust"
+            [PHP]="php" [Ruby]="ruby" [Vue]="vuedotjs" ["C++"]="cplusplus"
+          )
+
           # Excludes WakaTime's generic "Other"/"Text" catch-all buckets so
           # the list is 5 distinct real languages, not placeholder categories.
-          list=$(echo "$response" | jq -r '
+          list=""
+          i=0
+          while IFS=$'\t' read -r name percent; do
+            i=$((i + 1))
+            color="${COLOR[$name]:-808080}"
+            logo="${LOGO[$name]:-}"
+            logocolor="white"
+            [ "$name" = "JavaScript" ] && logocolor="black"
+            # shields.io escaping: literal "-" -> "--", "#"/"+"/" " URL-encoded.
+            enc=$(echo "$name" | sed -e 's/-/--/g' -e 's/#/%23/g' -e 's/+/%2B/g' -e 's/ /_/g')
+            label="${enc}-${percent}%25-${color}"
+            if [ -n "$logo" ]; then
+              badge="https://img.shields.io/badge/${label}?style=flat-square&logo=${logo}&logoColor=${logocolor}"
+            else
+              badge="https://img.shields.io/badge/${label}?style=flat-square"
+            fi
+            list="${list}${i}. ![${name}](${badge})"$'\n'
+          done < <(echo "$response" | jq -r '
             [.data.languages[] | select(.name != "Other" and .name != "Text")]
             | .[:5]
-            | to_entries[]
-            | "\(.key + 1). **\(.value.name)** — \(.value.text) (\(.value.percent)%)"
+            | .[]
+            | "\(.name)\t\(.percent)"
           ')
+
           awk -v list="$list" '
-            /<!--START_SECTION:top-lang-->/ { print; print list; skip=1; next }
+            /<!--START_SECTION:top-lang-->/ { print; printf "%s", list; skip=1; next }
             /<!--END_SECTION:top-lang-->/ { skip=0 }
             !skip { print }
           ' README.md > README.md.tmp && mv README.md.tmp README.md
