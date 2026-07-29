@@ -51,9 +51,7 @@ jobs:
           # Excludes WakaTime's generic "Other"/"Text" catch-all buckets so
           # the list is 5 distinct real languages, not placeholder categories.
           list=""
-          i=0
           while IFS=$'\t' read -r name percent; do
-            i=$((i + 1))
             color="${COLOR[$name]:-808080}"
             logo="${LOGO[$name]:-}"
             logocolor="white"
@@ -66,7 +64,7 @@ jobs:
             else
               badge="https://img.shields.io/badge/${label}?style=flat-square"
             fi
-            list="${list}${i}. ![${name}](${badge})"$'\n'
+            list="${list}![${name}](${badge}) "
           done < <(echo "$response" | jq -r '
             [.data.languages[] | select(.name != "Other" and .name != "Text")]
             | .[:5]
