@@ -13,7 +13,7 @@ permissions:
 
 jobs:
   update-readme:
-    name: Update README with top 10 all-time languages
+    name: Update README with top 5 all-time languages
     runs-on: ubuntu-latest
     # Skip runs triggered by this workflow's own commit to avoid retriggering
     # push-based runs indefinitely.
@@ -23,13 +23,20 @@ jobs:
 
       # Calls the WakaTime API directly instead of a third-party action --
       # avoids depending on someone else's floating Docker image/version.
-      - name: Fetch top 10 languages from WakaTime and update README
+      - name: Fetch top 5 languages from WakaTime and update README
         env:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
         run: |
           set -euo pipefail
           response=$(curl -s "https://wakatime.com/api/v1/users/current/stats/all_time?api_key=${WAKATIME_API_KEY}")
-          list=$(echo "$response" | jq -r '.data.languages[:10] | to_entries[] | "\(.key + 1). **\(.value.name)** — \(.value.text) (\(.value.percent)%)"')
+          # Excludes WakaTime's generic "Other"/"Text" catch-all buckets so
+          # the list is 5 distinct real languages, not placeholder categories.
+          list=$(echo "$response" | jq -r '
+            [.data.languages[] | select(.name != "Other" and .name != "Text")]
+            | .[:5]
+            | to_entries[]
+            | "\(.key + 1). **\(.value.name)** — \(.value.text) (\(.value.percent)%)"
+          ')
           awk -v list="$list" '
             /<!--START_SECTION:top-lang-->/ { print; print list; skip=1; next }
             /<!--END_SECTION:top-lang-->/ { skip=0 }
