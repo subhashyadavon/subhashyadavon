@@ -51,8 +51,8 @@ jobs:
           SHOW_OS: "False"
           SHOW_LANGUAGE_PER_REPO: "False"
           SHOW_LOC_CHART: "False"
-          SHOW_AI_CODE_TIME: "False"
-          SHOW_AI_CODING: "False"
+          SHOW_AI_CODE_TIME: "True"
+          SHOW_AI_CODING: "True"
 
       - name: WakaTime stats (attempt 2)
         id: waka2
