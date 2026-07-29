@@ -13,28 +13,25 @@ permissions:
 
 jobs:
   update-readme:
-    name: Update README with top all-time language
+    name: Update README with top 10 all-time languages
     runs-on: ubuntu-latest
     # Skip runs triggered by this workflow's own commit to avoid retriggering
     # push-based runs indefinitely.
-    if: ${{ !contains(github.event.head_commit.message, 'Update top language') }}
+    if: ${{ !contains(github.event.head_commit.message, 'Update top languages') }}
     steps:
       - uses: actions/checkout@v7
 
       # Calls the WakaTime API directly instead of a third-party action --
       # avoids depending on someone else's floating Docker image/version.
-      - name: Fetch top language from WakaTime and update README
+      - name: Fetch top 10 languages from WakaTime and update README
         env:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
         run: |
           set -euo pipefail
           response=$(curl -s "https://wakatime.com/api/v1/users/current/stats/all_time?api_key=${WAKATIME_API_KEY}")
-          name=$(echo "$response" | jq -r '.data.languages[0].name')
-          text=$(echo "$response" | jq -r '.data.languages[0].text')
-          percent=$(echo "$response" | jq -r '.data.languages[0].percent')
-          line="**${name}** — ${text} (${percent}% of all-time coding activity)"
-          awk -v line="$line" '
-            /<!--START_SECTION:top-lang-->/ { print; print line; skip=1; next }
+          list=$(echo "$response" | jq -r '.data.languages[:10] | to_entries[] | "\(.key + 1). **\(.value.name)** — \(.value.text) (\(.value.percent)%)"')
+          awk -v list="$list" '
+            /<!--START_SECTION:top-lang-->/ { print; print list; skip=1; next }
             /<!--END_SECTION:top-lang-->/ { skip=0 }
             !skip { print }
           ' README.md > README.md.tmp && mv README.md.tmp README.md
@@ -45,6 +42,6 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           if ! git diff --quiet -- README.md; then
             git add README.md
-            git commit -m "Update top language"
+            git commit -m "Update top languages"
             git push
           fi
