@@ -1,0 +1,50 @@
+name: top-language
+
+on:
+  push:
+    branches: [main]
+  schedule:
+    # Runs every 6 hours
+    - cron: "0 */6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-readme:
+    name: Update README with top all-time language
+    runs-on: ubuntu-latest
+    # Skip runs triggered by this workflow's own commit to avoid retriggering
+    # push-based runs indefinitely.
+    if: ${{ !contains(github.event.head_commit.message, 'Update top language') }}
+    steps:
+      - uses: actions/checkout@v7
+
+      # Calls the WakaTime API directly instead of a third-party action --
+      # avoids depending on someone else's floating Docker image/version.
+      - name: Fetch top language from WakaTime and update README
+        env:
+          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
+        run: |
+          set -euo pipefail
+          response=$(curl -s "https://wakatime.com/api/v1/users/current/stats/all_time?api_key=${WAKATIME_API_KEY}")
+          name=$(echo "$response" | jq -r '.data.languages[0].name')
+          text=$(echo "$response" | jq -r '.data.languages[0].text')
+          percent=$(echo "$response" | jq -r '.data.languages[0].percent')
+          line="**${name}** — ${text} (${percent}% of all-time coding activity)"
+          awk -v line="$line" '
+            /<!--START_SECTION:top-lang-->/ { print; print line; skip=1; next }
+            /<!--END_SECTION:top-lang-->/ { skip=0 }
+            !skip { print }
+          ' README.md > README.md.tmp && mv README.md.tmp README.md
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "readme-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if ! git diff --quiet -- README.md; then
+            git add README.md
+            git commit -m "Update top language"
+            git push
+          fi
