@@ -64,7 +64,7 @@ jobs:
             else
               badge="https://img.shields.io/badge/${label}?style=flat-square"
             fi
-            list="${list}![${name}](${badge}) "
+            list="${list}![${name}](${badge})&nbsp;&nbsp;&nbsp;"
           done < <(echo "$response" | jq -r '
             [.data.languages[] | select(.name != "Other" and .name != "Text")]
             | .[:5]
@@ -73,7 +73,7 @@ jobs:
           ')
 
           awk -v list="$list" '
-            /<!--START_SECTION:top-lang-->/ { print; printf "%s", list; skip=1; next }
+            /<!--START_SECTION:top-lang-->/ { print; printf "%s\n", list; skip=1; next }
             /<!--END_SECTION:top-lang-->/ { skip=0 }
             !skip { print }
           ' README.md > README.md.tmp && mv README.md.tmp README.md
