@@ -13,7 +13,7 @@ permissions:
 
 jobs:
   update-readme:
-    name: Update README with top 5 all-time languages
+    name: Update README with top 5 languages (May 2026 - Present)
     runs-on: ubuntu-latest
     # Skip runs triggered by this workflow's own commit to avoid retriggering
     # push-based runs indefinitely.
