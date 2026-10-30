@@ -5,4 +5,5 @@
 
 ## ⏱️ Code Time (May 2026 - Present)
 <!--START_SECTION:code-time-->
+![Code Time](https://img.shields.io/badge/Code_Time-86_hrs_9_mins-2EA44F?style=flat-square&logo=wakatime&logoColor=white)
 <!--END_SECTION:code-time-->
