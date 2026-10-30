@@ -13,7 +13,7 @@ permissions:
 
 jobs:
   update-readme:
-    name: Update README with top 5 languages (May 2026 - Present)
+    name: Update README with top 5 languages and code time (May 2026 - Present)
     runs-on: ubuntu-latest
     # Skip runs triggered by this workflow's own commit to avoid retriggering
     # push-based runs indefinitely.
@@ -72,11 +72,25 @@ jobs:
             | "\(.name)\t\(.percent)"
           ')
 
-          awk -v list="$list" '
-            /<!--START_SECTION:top-lang-->/ { print; printf "%s\n", list; skip=1; next }
-            /<!--END_SECTION:top-lang-->/ { skip=0 }
-            !skip { print }
-          ' README.md > README.md.tmp && mv README.md.tmp README.md
+          # Replaces everything between <!--START_SECTION:$1--> and
+          # <!--END_SECTION:$1--> in README.md with $2.
+          replace_section() {
+            awk -v name="$1" -v content="$2" '
+              $0 ~ "<!--START_SECTION:" name "-->" { print; printf "%s\n", content; skip=1; next }
+              $0 ~ "<!--END_SECTION:" name "-->" { skip=0 }
+              !skip { print }
+            ' README.md > README.md.tmp && mv README.md.tmp README.md
+          }
+
+          replace_section top-lang "$list"
+
+          # Total coding time, including the "Other" bucket excluded above.
+          # Left untouched if WakaTime hasn't computed the stats yet.
+          total=$(echo "$response" | jq -r '.data.human_readable_total_including_other_language // empty')
+          if [ -n "$total" ]; then
+            enc=$(echo "$total" | sed -e 's/-/--/g' -e 's/ /_/g')
+            replace_section code-time "![Code Time](https://img.shields.io/badge/Code_Time-${enc}-2EA44F?style=flat-square&logo=wakatime&logoColor=white)"
+          fi
 
       - name: Commit and push if changed
         run: |
