@@ -13,7 +13,7 @@ permissions:
 
 jobs:
   update-readme:
-    name: Update README with top 5 languages and code time (May 2026 - Present)
+    name: Update README with top 10 languages and code time (May 2026 - Present)
     runs-on: ubuntu-latest
     # Skip runs triggered by this workflow's own commit to avoid retriggering
     # push-based runs indefinitely.
@@ -23,7 +23,7 @@ jobs:
 
       # Calls the WakaTime API directly instead of a third-party action --
       # avoids depending on someone else's floating Docker image/version.
-      - name: Fetch top 5 languages from WakaTime and update README
+      - name: Fetch top 10 languages from WakaTime and update README
         env:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
         run: |
@@ -49,7 +49,7 @@ jobs:
           )
 
           # Excludes WakaTime's generic "Other"/"Text" catch-all buckets so
-          # the list is 5 distinct real languages, not placeholder categories.
+          # the list is 10 distinct real languages, not placeholder categories.
           list=""
           while IFS=$'\t' read -r name percent; do
             color="${COLOR[$name]:-808080}"
@@ -67,7 +67,7 @@ jobs:
             list="${list}![${name}](${badge})&nbsp;&nbsp;&nbsp;"
           done < <(echo "$response" | jq -r '
             [.data.languages[] | select(.name != "Other" and .name != "Text")]
-            | .[:5]
+            | .[:10]
             | .[]
             | "\(.name)\t\(.percent)"
           ')
