@@ -56,9 +56,8 @@ def render(months, theme):
         f'<svg xmlns="http://www.w3.org/2000/svg" width="{WIDTH}" height="{HEIGHT}" '
         f'viewBox="0 0 {WIDTH} {HEIGHT}" role="img" font-family="{FONT}" font-size="12">',
         f"<title>Coding time per month: {escape(title)}</title>",
-        f'<text x="{PAD}" y="32"><tspan fill="{t["text"]}" font-size="20" font-weight="600">'
-        f'{duration(total, long=True)}</tspan><tspan fill="{t["muted"]}" font-size="13"> '
-        f'since {dates[0]:%B %Y}</tspan></text>',
+        f'<text x="{PAD}" y="32" fill="{t["text"]}" font-size="20" font-weight="600">'
+        f'{duration(total, long=True)}</text>',
         f'<line x1="{PAD}" x2="{WIDTH - PAD}" y1="{BASELINE}" y2="{BASELINE}" stroke="{t["axis"]}"/>',
     ]
 
