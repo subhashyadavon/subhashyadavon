@@ -66,7 +66,7 @@ jobs:
             fi
             list="${list}![${name}](${badge})&nbsp;&nbsp;&nbsp;"
           done < <(echo "$response" | jq -r '
-            [.data.languages[] | select(.name != "Other" and .name != "Text")]
+            [(.data.languages // [])[] | select(.name != "Other" and .name != "Text")]
             | .[:10]
             | .[]
             | "\(.name)\t\(.percent)"
@@ -82,7 +82,14 @@ jobs:
             ' README.md > README.md.tmp && mv README.md.tmp README.md
           }
 
-          replace_section top-lang "$list"
+          # WakaTime occasionally returns no language data (e.g. an error or
+          # while it's recalculating stats); keep the last good badges rather
+          # than blanking the section.
+          if [ -n "$list" ]; then
+            replace_section top-lang "$list"
+          else
+            echo "::warning::WakaTime returned no languages; leaving README section unchanged. Response: $(echo "$response" | head -c 300)"
+          fi
 
           # Total coding time, including the "Other" bucket excluded above.
           # Left untouched if WakaTime hasn't computed the stats yet.
