@@ -44,7 +44,7 @@ jobs:
           )
           declare -A LOGO=(
             [SCSS]="sass" [TypeScript]="typescript" [HTML]="html5" [YAML]="yaml"
-            [Markdown]="markdown" [JavaScript]="javascript" [CSS]="css3" [Swift]="swift"
+            [Markdown]="markdown" [JavaScript]="javascript" [CSS]="css" [Swift]="swift"
             [Python]="python" [Java]="openjdk" ["C#"]="dotnet" [C]="c" [SQL]="postgresql"
             [JSON]="json" [Shell]="gnubash" [Dockerfile]="docker" [Go]="go" [Rust]="rust"
             [PHP]="php" [Ruby]="ruby" [Vue]="vuedotjs" ["C++"]="cplusplus"
@@ -53,6 +53,7 @@ jobs:
           # Excludes WakaTime's generic "Other"/"Text" catch-all buckets so
           # the list is 10 distinct real languages, not placeholder categories.
           list=""
+          rows=""
           while IFS=$'\t' read -r name percent; do
             color="${COLOR[$name]:-808080}"
             logo="${LOGO[$name]:-}"
@@ -67,6 +68,7 @@ jobs:
               badge="https://img.shields.io/badge/${label}?style=flat-square"
             fi
             list="${list}![${name}](${badge})&nbsp;&nbsp;&nbsp;"
+            rows="${rows}${name}"$'\t'"${percent}"$'\t'"${color}"$'\t'"${logo}"$'\t'"${logocolor}"$'\n'
           done < <(echo "$response" | jq -r '
             [(.data.languages // [])[] | select(.name != "Other" and .name != "Text")]
             | .[:10]
@@ -74,28 +76,12 @@ jobs:
             | "\(.name)\t\(.percent)"
           ')
 
-          # Mermaid pie of the top 6 languages plus an "Other" slice for the
-          # rest, so slices are true shares of total time. Mermaid can't switch
-          # colours per GitHub theme, so these six were checked to stay
-          # distinguishable (incl. colour-blind and the last->first wrap) on
-          # both light and dark backgrounds; a 7th hue would fail that.
-          # Slices are pre-sorted by size because Mermaid sorts them and hands
-          # out pie1..pieN in that order.
-          pie=$(echo "$response" | jq -r '
-            ["#3987e5","#d95926","#199e70","#c98500","#d55181","#008300"] as $palette
-            | [(.data.languages // [])[] | select(.name != "Other" and .name != "Text")][:6]
-            | select(length > 0)
-            | [to_entries[] | {name: .value.name, percent: .value.percent, color: $palette[.key]}]
-              + [{name: "Other", percent: ((100 - (map(.percent) | add)) * 100 | round / 100), color: "#898781"}]
-            | map(select(.percent > 0))
-            | sort_by(-.percent)
-            | ([to_entries[] | "\"pie\(.key + 1)\": \"\(.value.color)\""] | join(", ")) as $colors
-            | "```mermaid",
-              "%%{init: {\"themeVariables\": {\($colors), \"pieOpacity\": \"1\", \"pieSectionTextColor\": \"#0b0b0b\", \"pieStrokeColor\": \"#ffffff\", \"pieStrokeWidth\": \"2px\", \"pieOuterStrokeWidth\": \"0px\"}}}%%",
-              "pie",
-              (.[] | "    \"\(.name)\" : \(.percent)"),
-              "```"
-          ')
+          # Pie chart in the badges' colours, names and logos, as light and
+          # dark SVGs that <picture> swaps to match the viewer's GitHub theme.
+          pie='<picture>
+            <source media="(prefers-color-scheme: dark)" srcset="assets/languages-dark.svg">
+            <img alt="Pie chart of top languages by coding time" src="assets/languages-light.svg">
+          </picture>'
 
           # Replaces everything between <!--START_SECTION:$1--> and
           # <!--END_SECTION:$1--> in README.md with $2. Passed via ENVIRON
@@ -112,6 +98,7 @@ jobs:
           # while it's recalculating stats); keep the last good chart and
           # badges rather than blanking the section.
           if [ -n "$list" ]; then
+            printf '%s' "$rows" | python3 .github/scripts/language_pie.py
             replace_section top-lang "${pie}"$'\n\n'"${list}"
           else
             echo "::warning::WakaTime returned no languages; leaving README section unchanged. Response: $(echo "$response" | head -c 300)"
@@ -129,8 +116,8 @@ jobs:
         run: |
           git config user.name "readme-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          if ! git diff --quiet -- README.md; then
-            git add README.md
+          git add README.md assets
+          if ! git diff --cached --quiet; then
             git commit -m "Update top languages"
             git push
           fi
