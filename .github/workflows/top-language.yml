@@ -23,12 +23,14 @@ jobs:
 
       # Calls the WakaTime API directly instead of a third-party action --
       # avoids depending on someone else's floating Docker image/version.
+      # WakaTime API keys are write-only (plugins) since 2026-11-01, so this
+      # uses a personal OAuth token from https://wakatime.com/oauth instead.
       - name: Fetch top 10 languages from WakaTime and update README
         env:
-          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
+          WAKATIME_ACCESS_TOKEN: ${{ secrets.WAKATIME_ACCESS_TOKEN }}
         run: |
           set -euo pipefail
-          response=$(curl -s "https://wakatime.com/api/v1/users/current/stats/all_time?api_key=${WAKATIME_API_KEY}")
+          response=$(curl -s -H "Authorization: Bearer ${WAKATIME_ACCESS_TOKEN}" "https://wakatime.com/api/v1/users/current/stats/all_time")
 
           # Per-language brand color/logo so each badge looks visually
           # distinct, matching shields.io conventions. Falls back to a
@@ -72,21 +74,45 @@ jobs:
             | "\(.name)\t\(.percent)"
           ')
 
+          # Mermaid pie of the top 6 languages plus an "Other" slice for the
+          # rest, so slices are true shares of total time. Mermaid can't switch
+          # colours per GitHub theme, so these six were checked to stay
+          # distinguishable (incl. colour-blind and the last->first wrap) on
+          # both light and dark backgrounds; a 7th hue would fail that.
+          # Slices are pre-sorted by size because Mermaid sorts them and hands
+          # out pie1..pieN in that order.
+          pie=$(echo "$response" | jq -r '
+            ["#3987e5","#d95926","#199e70","#c98500","#d55181","#008300"] as $palette
+            | [(.data.languages // [])[] | select(.name != "Other" and .name != "Text")][:6]
+            | select(length > 0)
+            | [to_entries[] | {name: .value.name, percent: .value.percent, color: $palette[.key]}]
+              + [{name: "Other", percent: ((100 - (map(.percent) | add)) * 100 | round / 100), color: "#898781"}]
+            | map(select(.percent > 0))
+            | sort_by(-.percent)
+            | ([to_entries[] | "\"pie\(.key + 1)\": \"\(.value.color)\""] | join(", ")) as $colors
+            | "```mermaid",
+              "%%{init: {\"themeVariables\": {\($colors), \"pieOpacity\": \"1\", \"pieSectionTextColor\": \"#0b0b0b\", \"pieStrokeColor\": \"#ffffff\", \"pieStrokeWidth\": \"2px\", \"pieOuterStrokeWidth\": \"0px\"}}}%%",
+              "pie",
+              (.[] | "    \"\(.name)\" : \(.percent)"),
+              "```"
+          ')
+
           # Replaces everything between <!--START_SECTION:$1--> and
-          # <!--END_SECTION:$1--> in README.md with $2.
+          # <!--END_SECTION:$1--> in README.md with $2. Passed via ENVIRON
+          # rather than -v so multi-line content and backslashes survive.
           replace_section() {
-            awk -v name="$1" -v content="$2" '
-              $0 ~ "<!--START_SECTION:" name "-->" { print; printf "%s\n", content; skip=1; next }
+            content="$2" awk -v name="$1" '
+              $0 ~ "<!--START_SECTION:" name "-->" { print; printf "%s\n", ENVIRON["content"]; skip=1; next }
               $0 ~ "<!--END_SECTION:" name "-->" { skip=0 }
               !skip { print }
             ' README.md > README.md.tmp && mv README.md.tmp README.md
           }
 
           # WakaTime occasionally returns no language data (e.g. an error or
-          # while it's recalculating stats); keep the last good badges rather
-          # than blanking the section.
+          # while it's recalculating stats); keep the last good chart and
+          # badges rather than blanking the section.
           if [ -n "$list" ]; then
-            replace_section top-lang "$list"
+            replace_section top-lang "${pie}"$'\n\n'"${list}"
           else
             echo "::warning::WakaTime returned no languages; leaving README section unchanged. Response: $(echo "$response" | head -c 300)"
           fi
