@@ -96,12 +96,24 @@ jobs:
             echo "::warning::WakaTime returned no languages; leaving README section unchanged. Response: $(echo "$response" | head -c 300)"
           fi
 
-          # Total coding time, including the "Other" bucket excluded above.
-          # Left untouched if WakaTime hasn't computed the stats yet.
-          total=$(echo "$response" | jq -r '.data.human_readable_total_including_other_language // empty')
-          if [ -n "$total" ]; then
-            enc=$(echo "$total" | sed -e 's/-/--/g' -e 's/ /_/g')
-            replace_section code-time "![Code Time](https://img.shields.io/badge/Code_Time-${enc}-2EA44F?style=flat-square&logo=wakatime&logoColor=white)"
+          # Coding time per month since May 2026: daily summaries summed by
+          # month, drawn as a bar chart. Left untouched if the call fails.
+          summaries=$(curl -s -H "Authorization: Bearer ${WAKATIME_ACCESS_TOKEN}" \
+            "https://wakatime.com/api/v1/users/current/summaries?start=2026-05-01&end=$(date -u +%F)")
+          months=$(echo "$summaries" | jq -r '
+            [(.data // [])[] | {month: .range.date[0:7], seconds: .grand_total.total_seconds}]
+            | group_by(.month)[]
+            | "\(.[0].month)\t\(map(.seconds) | add)"
+          ')
+          if [ -n "$months" ]; then
+            printf '%s\n' "$months" | python3 .github/scripts/code_time_chart.py
+            alt=$(printf '%s\n' "$months" | awk -F'\t' '{ m = int($2 / 60 + 0.5); printf "%s%s %dh %dm", (NR > 1 ? ", " : ""), $1, m / 60, m % 60 }')
+            replace_section code-time "<picture>
+            <source media=\"(prefers-color-scheme: dark)\" srcset=\"assets/code-time-dark.svg\">
+            <img alt=\"Coding time per month: ${alt}\" src=\"assets/code-time-light.svg\">
+          </picture>"
+          else
+            echo "::warning::WakaTime returned no summaries; leaving code time chart unchanged. Response: $(echo "$summaries" | head -c 300)"
           fi
 
       - name: Commit and push if changed

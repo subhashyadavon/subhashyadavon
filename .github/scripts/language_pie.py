@@ -19,8 +19,8 @@ OTHER_COLOR = "6E7781"
 # Text colours and the slice gap follow GitHub's own light/dark palettes.
 # The dark ring keeps black brand colours (Markdown, JSON) visible.
 THEMES = {
-    "light": {"text": "#1f2328", "muted": "#59636e", "gap": "#ffffff", "ring": None},
-    "dark": {"text": "#f0f6fc", "muted": "#9198a1", "gap": "#0d1117", "ring": "#3d444d"},
+    "light": {"text": "#1f2328", "muted": "#59636e", "gap": "#ffffff", "ring": None, "axis": "#d1d9e0"},
+    "dark": {"text": "#f0f6fc", "muted": "#9198a1", "gap": "#0d1117", "ring": "#3d444d", "axis": "#3d444d"},
 }
 FONT = "-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif"
 R = 150              # pie radius
