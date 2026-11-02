@@ -8,5 +8,8 @@
 
 ## ⏱️ Code Time (May 2026 - Present)
 <!--START_SECTION:code-time-->
-![Code Time](https://img.shields.io/badge/Code_Time-87_hrs_51_mins-2EA44F?style=flat-square&logo=wakatime&logoColor=white)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/code-time-dark.svg">
+  <img alt="Coding time per month: 2026-05 2h 20m, 2026-06 17h 57m, 2026-07 34h 24m, 2026-08 24h 54m, 2026-09 3h 53m, 2026-10 4h 43m, 2026-11 4h 25m" src="assets/code-time-light.svg">
+</picture>
 <!--END_SECTION:code-time-->
