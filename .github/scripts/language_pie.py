@@ -3,7 +3,7 @@
 
 Reads tab-separated rows (name, percent, hex colour, simple-icons slug, logo
 colour) on stdin, largest first, and writes assets/languages-{light,dark}.svg.
-Colours, names and logos match the shields.io badges shown under the chart;
+Colours and logos are each language's brand ones, as on shields.io badges;
 whatever is left of 100% becomes a gray "Other" slice so slices are true shares.
 """
 import math

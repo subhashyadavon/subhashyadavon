@@ -32,9 +32,9 @@ jobs:
           set -euo pipefail
           response=$(curl -s -H "Authorization: Bearer ${WAKATIME_ACCESS_TOKEN}" "https://wakatime.com/api/v1/users/current/stats/all_time")
 
-          # Per-language brand color/logo so each badge looks visually
-          # distinct, matching shields.io conventions. Falls back to a
-          # neutral gray, unlabeled badge for anything not in the table.
+          # Per-language brand color/logo (simple-icons slugs, as shields.io
+          # uses) for the pie slices. Falls back to a neutral gray slice with
+          # no logo for anything not in the table.
           declare -A COLOR=(
             [SCSS]="CC6699" [TypeScript]="3178C6" [HTML]="E34F26" [YAML]="CB171E"
             [Markdown]="000000" [JavaScript]="F7DF1E" [CSS]="1572B6" [Swift]="FA7343"
@@ -52,22 +52,12 @@ jobs:
 
           # Excludes WakaTime's generic "Other"/"Text" catch-all buckets so
           # the list is 10 distinct real languages, not placeholder categories.
-          list=""
           rows=""
           while IFS=$'\t' read -r name percent; do
             color="${COLOR[$name]:-808080}"
             logo="${LOGO[$name]:-}"
             logocolor="white"
             [ "$name" = "JavaScript" ] && logocolor="black"
-            # shields.io escaping: literal "-" -> "--", "#"/"+"/" " URL-encoded.
-            enc=$(echo "$name" | sed -e 's/-/--/g' -e 's/#/%23/g' -e 's/+/%2B/g' -e 's/ /_/g')
-            label="${enc}-${percent}%25-${color}"
-            if [ -n "$logo" ]; then
-              badge="https://img.shields.io/badge/${label}?style=flat-square&logo=${logo}&logoColor=${logocolor}"
-            else
-              badge="https://img.shields.io/badge/${label}?style=flat-square"
-            fi
-            list="${list}![${name}](${badge})&nbsp;&nbsp;&nbsp;"
             rows="${rows}${name}"$'\t'"${percent}"$'\t'"${color}"$'\t'"${logo}"$'\t'"${logocolor}"$'\n'
           done < <(echo "$response" | jq -r '
             [(.data.languages // [])[] | select(.name != "Other" and .name != "Text")]
@@ -76,12 +66,14 @@ jobs:
             | "\(.name)\t\(.percent)"
           ')
 
-          # Pie chart in the badges' colours, names and logos, as light and
+          # Pie chart in each language's brand colour and logo, as light and
           # dark SVGs that <picture> swaps to match the viewer's GitHub theme.
-          pie='<picture>
-            <source media="(prefers-color-scheme: dark)" srcset="assets/languages-dark.svg">
-            <img alt="Pie chart of top languages by coding time" src="assets/languages-light.svg">
-          </picture>'
+          # The alt text carries the numbers for screen readers.
+          alt=$(printf '%s' "$rows" | awk -F'\t' '{ printf "%s%s %s%%", (NR > 1 ? ", " : ""), $1, $2 }')
+          pie="<picture>
+            <source media=\"(prefers-color-scheme: dark)\" srcset=\"assets/languages-dark.svg\">
+            <img alt=\"Top languages by coding time: ${alt}\" src=\"assets/languages-light.svg\">
+          </picture>"
 
           # Replaces everything between <!--START_SECTION:$1--> and
           # <!--END_SECTION:$1--> in README.md with $2. Passed via ENVIRON
@@ -95,11 +87,11 @@ jobs:
           }
 
           # WakaTime occasionally returns no language data (e.g. an error or
-          # while it's recalculating stats); keep the last good chart and
-          # badges rather than blanking the section.
-          if [ -n "$list" ]; then
+          # while it's recalculating stats); keep the last good chart rather
+          # than blanking the section.
+          if [ -n "$rows" ]; then
             printf '%s' "$rows" | python3 .github/scripts/language_pie.py
-            replace_section top-lang "${pie}"$'\n\n'"${list}"
+            replace_section top-lang "$pie"
           else
             echo "::warning::WakaTime returned no languages; leaving README section unchanged. Response: $(echo "$response" | head -c 300)"
           fi
