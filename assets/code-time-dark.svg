@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="676" height="250" viewBox="0 0 676 250" role="img" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="12">
-<title>Coding time per month: May 2026 2h 20m, June 2026 17h 57m, July 2026 129h 51m, August 2026 24h 54m, September 2026 3h 53m, October 2026 4h 43m, November 2026 4h 37m</title>
-<text x="16" y="32" fill="#f0f6fc" font-size="20" font-weight="600">188 hrs 15 mins</text>
+<title>Coding time per month: May 2026 2h 20m, June 2026 17h 57m, July 2026 129h 51m, August 2026 24h 54m, September 2026 3h 53m, October 2026 4h 43m, November 2026 4h 39m</title>
+<text x="16" y="32" fill="#f0f6fc" font-size="20" font-weight="600">188 hrs 17 mins</text>
 <line x1="16" x2="660" y1="206" y2="206" stroke="#3d444d"/>
 <path d="M50.00,206 V206.00 Q50.00,203.60 52.40,203.60 H71.60 Q74.00,203.60 74.00,206.00 V206 Z" fill="#0c82bf"/>
 <text x="62.00" y="195.60" fill="#f0f6fc" font-weight="600" text-anchor="middle">2h 20m</text>
@@ -21,8 +21,8 @@
 <path d="M510.00,206 V205.13 Q510.00,201.13 514.00,201.13 H530.00 Q534.00,201.13 534.00,205.13 V206 Z" fill="#6b86e1"/>
 <text x="522.00" y="193.13" fill="#f0f6fc" font-weight="600" text-anchor="middle">4h 43m</text>
 <text x="522.00" y="224" fill="#9198a1" text-anchor="middle">Oct</text>
-<path d="M602.00,206 V205.23 Q602.00,201.23 606.00,201.23 H622.00 Q626.00,201.23 626.00,205.23 V206 Z" fill="#b36303" fill-opacity="0.5"/>
-<text x="614.00" y="193.23" fill="#f0f6fc" font-weight="600" text-anchor="middle">4h 37m</text>
+<path d="M602.00,206 V205.20 Q602.00,201.20 606.00,201.20 H622.00 Q626.00,201.20 626.00,205.20 V206 Z" fill="#b36303" fill-opacity="0.5"/>
+<text x="614.00" y="193.20" fill="#f0f6fc" font-weight="600" text-anchor="middle">4h 39m</text>
 <text x="614.00" y="224" fill="#9198a1" text-anchor="middle">Nov</text>
 <text x="614.00" y="239" fill="#9198a1" font-size="11" text-anchor="middle">so far</text>
 </svg>
