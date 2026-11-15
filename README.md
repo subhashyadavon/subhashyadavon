@@ -2,7 +2,7 @@
 <!--START_SECTION:top-lang-->
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/languages-dark.svg">
-  <img alt="Top languages by coding time: SCSS 36.61%, TypeScript 11.97%, HTML 11.14%, Markdown 9.81%, YAML 4.46%, C# 4.06%, JavaScript 3.55%, Python 1.35%, Swift 1.23%, CSS 1.08%" src="assets/languages-light.svg">
+  <img alt="Top languages by coding time: SCSS 36.32%, TypeScript 11.87%, HTML 11.11%, Markdown 9.73%, YAML 4.42%, C# 4.03%, JavaScript 3.52%, Python 1.36%, Swift 1.22%, CSS 1.07%" src="assets/languages-light.svg">
 </picture>
 <!--END_SECTION:top-lang-->
 
